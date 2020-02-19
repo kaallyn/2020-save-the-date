@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Norwester';
+    src:url('../font/Norwester.ttf.woff') format('woff')
+}
+
+*, *:before, *:after {
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box; 
+   -moz-box-sizing: border-box; 
+   outline: none;
+}
+
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  background: #000; 
+  /*background-image: url(../img/aqua7-conference-filter.jpg);*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.body-container {
+  background-image: url(../img/aqua7-conference-filter.jpg);
+  background-size: cover;
+}
+
+
+#show {
+  display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.hide {
+  display: none;
+}
+/*video { 
+  z-index: -100;
+  background-size: cover;
+  transition: fadeIn 1s ease-in-out;
+  filter: contrast(2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+video.city { 
+  top:auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: none;
+  transform: none;
+  background: url('../img/Pexels-Videos-4595.jpg') no-repeat;
+  filter: contrast(2);
+  object-position: bottom right;
+  /*height: 122%;*/
+}
+
+video.beer { 
+  top:0;
+  left: 7%;
+  left: auto;
+  right: 0;
+  right: auto;
+  -webkit-transform: none;
+  transform: none;
+  background: url('../img/Filling-glass-with-beer-multiply-logo.jpg') no-repeat;
+}
+
+.building {
+  filter: grayscale(100%);
+  background: url('../img/Corporate_Cloud_Videvo-loop2.jpg') no-repeat;  
+}
+
+video.cat {
+  filter: contrast(1);
+
+}
+
+video.swing {
+  filter: contrast(2);
+
+}*/
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.stopfade { 
+   opacity: .5;
+}
+
+#container {
+  color: #fff;
+  padding-top: 9em;
+  height: 100vh;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  filter: saturate(2);
+}
+
+
+h1 {
+  font-size: 7.5rem;
+  text-transform: uppercase;
+  font-family:  "Norwester", Arial, sans-serif;
+  margin-top: 10%;
+  letter-spacing: .2rem;
+  text-align: center;
+  font-weight: 300;
+  text-shadow: 1px 1px 8px  rgba(0,0,0,0.325);
+  mix-blend-mode: soft-light;
+  line-height: 3rem;
+}
+
+h1 span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: .9rem;
+  mix-blend-mode: lighten;
+}
+
+button { 
+  padding: 0.4rem 1.4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: .3s background;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  mix-blend-mode: soft-light;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button#pause {
+  background: rgba(0,0,0,0.5);
+}
+
+#container button:hover { 
+   background: rgba(0,0,0,0.9);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+  transform: translateY(30px);
+}
+
+p {
+  mix-blend-mode: lighten;
+  display: inline-block;
+  margin-right: 2rem; 
+}
+
+nav {
+  position: absolute;
+  background-color: rgba(0,0,0,0.46); 
+  background-image: linear-gradient(to top, rgba(0,0,0,0.246), rgba(0,0,0,0) );
+  mix-blend-mode: soft-light;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color:lightgray;
+  padding: 0 1rem;
+}
+
+
+
+
+
+nav button {
+  display: inline-block;
+  background: rgba(255,255,255,0);
+  mix-blend-mode: lighten;
+  color:lightgray;
+}
+@media screen and (max-width: 590px) { 
+  h1 {
+    font-size: 5rem;
+  } 
+  p {
+    display: block;
+    margin: 1rem 0 0 0;
+  }
+}
