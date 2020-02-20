@@ -72,7 +72,7 @@ video.city {
   /*height: 122%;*/
 }
 
-video.beer { 
+/*video.beer { 
   top:0;
   left: 7%;
   left: auto;
@@ -197,7 +197,17 @@ nav {
 }
 
 
+.logo-group {
+  /*height: 500px;*/
+  max-width: 1000px;
+  background-color: orange;
+  margin: 0 auto;
 
+}
+
+.logo-group img {
+  max-width: 50%;
+}
 
 
 nav button {
