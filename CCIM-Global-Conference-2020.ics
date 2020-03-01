@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CCIM Global Conference | Swissotel Chicago
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//Mac OS X 10.14.6//EN
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20201030
+UID:A8DAAB47-18AB-4097-8BC8-A196E11D0F32
+DTSTAMP:20180306T154104Z
+LOCATION:Sheraton Grand Chicago
+DESCRIPTION:Join CCIMs and other top commercial real estate professional
+ s at the CCIM Global Conference\, Oct. 28-29 at the Sheraton Grand Chica
+ go. The program will include interactive sessions on technology\, leader
+ ship\, and international investment\, as well as a very special keynote 
+ address. Watch www.ccim.com for the full agenda and registration details
+ .
+URL;VALUE=URI:conference.ccim.com
+SEQUENCE:0
+SUMMARY:CCIM Global Conference | Swissotel Chicago
+LAST-MODIFIED:20200301T223834Z
+DTSTART;VALUE=DATE:20201028
+CREATED:20180301T182722Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:18D940B5-4B73-4C41-A47A-8545F1B81DBC
+UID:18D940B5-4B73-4C41-A47A-8545F1B81DBC
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+END:VCALENDAR
