@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//Mac OS X 10.11.6//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20181010
+UID:A8DAAB47-18AB-4097-8BC8-A196E11D0F32
+DTSTAMP:20180306T154104Z
+LOCATION:Swissotel Chicago\, 323 E Upper Wacker Dr\, Chicago\, IL 60601\
+ , USA
+DESCRIPTION:Join CCIMs and other top commercial real estate professional
+ s at the CCIM Global Conference\, Oct. 8-9 at the Swissotel Chicago. The
+  program will include interactive sessions on technology\, leadership\, 
+ and international investment\, as well as a very special keynote address
+ . Watch www.ccim.com for the full agenda and registration details.
+URL;VALUE=URI:conference.ccim.com
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:CCIM Global Conference | Swissotel Chicago
+DTSTART;VALUE=DATE:20181008
+CREATED:20180301T182722Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Swissotel Chicago, 323 E 
+ Upper Wacker Dr, Chicago, IL 60601, USA":geo:41.887458,-87.619656
+BEGIN:VALARM
+X-WR-ALARMUID:BDEB67D4-6A91-4D8E-A176-8B2BB3A741C4
+UID:BDEB67D4-6A91-4D8E-A176-8B2BB3A741C4
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+X-APPLE-LOCAL-DEFAULT-ALARM:TRUE
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+END:VALARM
+END:VEVENT
+END:VCALENDAR
