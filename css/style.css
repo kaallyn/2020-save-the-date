@@ -2,6 +2,8 @@
   font-family: "Hevetica Neue";
   src: url("../font/HelveticaNeue-Light.woff") format("truetype"); }
 
+@font-face{font-family:Futura New;src:url("../font/FuturaNewBold.woff") format("woff");font-weight:700;font-style:normal}
+
 .cf:after {
   clear: both;
   content: "";
@@ -107,6 +109,8 @@ h4 {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
+  font-family: futura new;
+  color: #E4264D;
   font-weight: bolder;
 }
   .container > header * {
@@ -249,7 +253,8 @@ body > header nav ul li .btn.register-btn-small-heading {
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 7px 16px;
+    font-size: 16px;
     text-decoration: none;
     display: block;
 }
@@ -276,7 +281,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 2;
-  padding: 10px;
+  padding: 10px 20px;
 
 }
 
@@ -692,8 +697,9 @@ footer {
     font-size: .7em;
     letter-spacing: .8px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 8px;
     padding-top: 10px;
+    opacity: 0.7;
     text-align: center;
     width: 100%; }
 
