@@ -5,20 +5,20 @@ METHOD:PUBLISH
 X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20200303T235714Z
+CREATED:20200304T174719Z
 DESCRIPTION:Join CCIMs and other top commercial real estate professionals a
 	t the CCIM Global Conference\, Oct. 28-29 at the Sheraton Grand Chicago. T
 	he program will include interactive sessions on technology\, leadership\, 
 	and international investment\, as well as a very special keynote address. 
-	Watch www.ccim.com for the full agenda and registration details.
+	Watch www.ccim.com for the full agenda and registration details.\n\n
 DTEND;VALUE=DATE:20201030
 DTSTAMP:20180306T154104Z
 DTSTART;VALUE=DATE:20201028
-LAST-MODIFIED:20200303T235714Z
+LAST-MODIFIED:20200304T174719Z
 LOCATION:Sheraton Grand Chicago
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:CCIM Global Conference | Swissotel Chicago
+SUMMARY;LANGUAGE=en-us:CCIM Global Conference | Sheraton Grand Chicago
 TRANSP:TRANSPARENT
 UID:A8DAAB47-18AB-4097-8BC8-A196E11D0F32
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
