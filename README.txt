@@ -1,1 +1,0 @@
-Cinemagraphs created by K. Allyn, following: https://www.youtube.com/watch?time_continue=37&v=2DU0Sim_BJ4
