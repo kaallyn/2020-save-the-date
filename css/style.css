@@ -177,7 +177,7 @@ body > header nav ul li .btn.register-btn-small-heading {
   /*background-color: blue;*/
   max-width: 800px;
   text-align: center;
-  margin: 40px auto;
+  margin: 40px auto 0;
   position: relative;
 }
 
@@ -185,7 +185,7 @@ body > header nav ul li .btn.register-btn-small-heading {
   font-weight: 800;
   font-size: 1.3em;
   letter-spacing: 2px;
-  margin: 5px;
+  /*margin: 5px;*/
   padding: 17px 25px;
   text-decoration: none;
   text-transform: uppercase;
@@ -235,6 +235,19 @@ body > header nav ul li .btn.register-btn-small-heading {
     font-size: 16px;
     border: none;
 }*/
+.dropdown-container {
+    /*border: 1px solid yellow;*/
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    height: 64px;
+}
+.dropdown-container {
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    height: 64px;
+}
 
 .dropdown {
     position: relative;
@@ -242,13 +255,16 @@ body > header nav ul li .btn.register-btn-small-heading {
 }
 
 .dropdown-content {
-    display: none;
+    /*display: none;*/
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: 5px;
+    transition: all .2s;
+    overflow: hidden;
+    height: 0;
 }
 
 .dropdown-content a {
@@ -261,12 +277,11 @@ body > header nav ul li .btn.register-btn-small-heading {
 
 .dropdown-content a:hover {background-color: #ddd}
 
-/*.dropdown:hover .dropdown-content {
-    display: block;
-}*/
 
 .activeX {
-  display: block;
+
+  height:100%;
+  /*background: red;*/
 }
 
 /*.dropdown:hover .dropbtn {
@@ -612,7 +627,7 @@ footer {
   bottom: 0;
   width: 100%;
   font-size: .9em;
-  padding-top: 20px; }
+ }
   footer .logo {
     width: 100%;
     text-align: center;
