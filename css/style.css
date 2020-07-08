@@ -374,7 +374,7 @@ main {
   background-size: contain;
   color: #fff;
 /*  height: 70vh;*/
-  /*min-height: 275px;*/
+  min-height: 275px;
   margin: 0 auto;
   margin-top: 85px;
   display: flex;
