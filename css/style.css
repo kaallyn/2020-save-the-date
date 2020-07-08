@@ -23,6 +23,7 @@
 html {
   position: relative;
   min-height: 100%;
+  background-color: #C82B4F;
 }
 
 body {
@@ -104,6 +105,7 @@ h4 {
 }
 
 .container > header > p{
+  display: none;
   margin:0;
   padding: 10px;
   text-transform: uppercase;
@@ -315,11 +317,58 @@ main {
   text-transform: uppercase;
   width: 100%; }
 
+/*----- ANIMATIONS---------*/
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+/*.is-hidden-btn {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+}*/
+
+.not-hidden {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(1px);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -19%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+.location.animate__animated.animate__fadeInUp {
+  /*--animate-duration: 2s;*/
+  --animate-delay: 2.9s;
+}
+
+
+
 /* HEADING / HERO ---------------------- */
+
 #heading {
   /*background-color: yellow;*/
   background-image: url("../img/student-center-toronto.jpg");
-    background-image: url("../img/date-logo-group-separated.png");
+    background-image: url("../img/date-logo-group-separated-nodate.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -334,13 +383,40 @@ main {
   width: 100%;
   max-width: 650px;
   text-align: center; 
+
   flex-grow: 2;
 
 }
+
+
+
+.heading-info {
+  color:white;
+  text-align: center;
+  font-style: italic;
+}
+
+.heading-info .location {
+    font-size: 1.9rem;
+    margin: 1rem auto;
+    letter-spacing: -.001rem;
+    padding: 8px 10px 3px;
+    background-color: rgba(51, 51, 51, .65);
+    /*display: inline-block;*/
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    max-width: 530px;
+    color: white;
+
+}
+
+
   #heading .conference-logo {
     width: 100%;
     flex-grow: 1;
     height: 100%;
+}
 /*    margin-top: 150px;
     margin-bottom: 150px;*/
 /*    background-image: url("../img/conference_logo_chicago_2018-stacked-svg-outline.svg");*/
