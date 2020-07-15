@@ -47,6 +47,36 @@ body {
   justify-content: space-between;
 }
 
+.blur-container {
+  min-height: 100vh;
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    animation: 2.5s blurinfocus  ease-out;
+
+}
+@keyframes blurinfocus {
+  0% {
+    backdrop-filter: blur(20px) contrast(.8);
+
+  }
+
+  100% {
+    backdrop-filter: blur(0px) contrast(1);
+
+  }
+}
+
+
+
+
+
+
+
 /*.overlay {
   position: relative;
 }
@@ -102,6 +132,10 @@ h4 {
   width: 100%; 
   margin: 0 auto;
   top:0;
+}
+
+header {
+  display: none;
 }
 
 .container > header > p{
