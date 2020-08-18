@@ -15,7 +15,9 @@
   -moz-box-sizing: border-box; }
 
 * {
-  transition: all .2s; }
+  transition: all .2s; 
+
+}
 
 .hidden {
   display: none; }
@@ -27,7 +29,7 @@ html {
 }
 
 body {
-  color: #333;
+  color: #3C3C3C;
   font: 18px "Hevetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   margin: 0 auto;
@@ -45,6 +47,7 @@ body {
   /*display: flex;*/
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .blur-container {
@@ -539,7 +542,7 @@ main {
   background-position: center;
   background-size: contain;
   color: #fff;
-/*  height: 70vh;*/
+  height: 56vh;
   min-height: 275px;
   margin: 0 auto;
   margin-top: 85px;
@@ -1397,7 +1400,7 @@ footer .columns a.tel {
     flex-grow: 1;
     /*border-bottom: 1px solid #6b6b6b;*/
     min-width: 100%;
-    padding: 2% 2% 5% 2%; }
+    padding: 4% 6%; }
   footer .col:nth-of-type(1) {
     /*order: 2; */
   }
@@ -1513,7 +1516,7 @@ footer .columns a.tel {
 
 @media screen and (max-width: 636px) {
   .heading-info .location {
-    font-size: 23px;
+    font-size: 22px;
     margin: 1rem auto;
     letter-spacing: -.001rem;
     padding: 8px 10px 3px;
@@ -1587,6 +1590,20 @@ footer .columns a.tel {
   .modal-content.price-info .close-modal {
     text-align: right; } }
 
+
+
+
+
+@media screen and (max-height: 640px) {
+  #heading {
+    /*max-height: 200px;*/
+    height: 56vh;
+    /*display: none;*/
+  }
+}
+
+
+
 @media screen and (max-width: 530px) {
   #testimonial {
     background-size: 450px;
@@ -1595,7 +1612,12 @@ footer .columns a.tel {
       width: 100%;
       text-align: center; }
     #testimonial blockquote footer {
-      margin-top: .5em; } }
+      margin-top: .5em; } 
+      #heading {
+      /* max-height: 200px; */
+      height: auto;
+
+    }
 
 @media screen and (max-width: 470px) {
   body > header {
@@ -1642,7 +1664,12 @@ footer .columns a.tel {
   .speaker, .speaker .headshot img, .speaker .info {
     width: 220px; }
   .modal-content p {
-    font-size: .9rem; } }
+    font-size: .9rem; } 
+
+    #heading {
+      margin-top: 45px;
+    }
+  }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   footer .columns {
@@ -1667,6 +1694,22 @@ footer .columns a.tel {
 
 @media screen and (min-width: 1000px) {
   #heading {
-    min-height: 417px;
+    /*min-height: 357px;
+    min-height: 417px;*/
   }
 }
+
+
+
+
+
+
+/*@media screen and (max-height: 640px) {
+  #heading {
+
+    height: 56vh;
+
+  }
+}
+*/
+
