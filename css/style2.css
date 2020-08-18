@@ -1142,7 +1142,7 @@ background: rgba(228,38,77,.5);
   transform: translateY(0px);
   transition-delay: 250ms;
   transition: all 400ms ease-in-out; 
-  transition-delay: 500ms;
+  transition-delay: 50ms;
 
 }
 
