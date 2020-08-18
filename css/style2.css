@@ -398,7 +398,7 @@ h2.check.not-hidden {
   /*color: #E4264D;*/
   background: rgba(225,225,225,0.42);
   border: 2px solid rgba(225,225,225,0.02);
-  
+
   /*margin-left:50px;*/
 }
 /*testing drop down button*/
@@ -1133,7 +1133,7 @@ background: rgba(228,38,77,.5);
   /*opacity: 0;*/
   offset: ;
   transform: translateY(0px);
-  transform: translateX(-30px); 
+  transform: translateX(-90px); 
 }
 
 .col.check.not-hidden:nth-of-type(1) {
@@ -1142,7 +1142,7 @@ background: rgba(228,38,77,.5);
   transform: translateY(0px);
   transition-delay: 250ms;
   transition: all 400ms ease-in-out; 
-  transition-delay: 50ms;
+  transition-delay: 500ms;
 
 }
 
@@ -1151,7 +1151,7 @@ background: rgba(228,38,77,.5);
   opacity: 0;
   offset: ;
   transform: translateY(0px);
-  transform: translateX(30px); 
+  transform: translateX(90px); 
 }
 
 .col.check.not-hidden:nth-of-type(2) {
