@@ -23,7 +23,7 @@
 html {
   position: relative;
   min-height: 100%;
-  background-color: #C82B4F;
+  /*background-color: #C82B4F;*/
 }
 
 body {
@@ -35,19 +35,22 @@ body {
   letter-spacing: .6px; }
 
 .container {
-  background-color: #d31f3c;
-  background-image: url("../img/aqua7-conference-filter.jpg");
-  background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");
+  /*background-color: #d31f3c;*/
+ /* background-image: url("../img/aqua7-conference-filter.jpg");
+  background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");*/
   background-size: cover;
   background-position: top center;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   position: relative;
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: space-between;
 }
 
 .blur-container {
+/*  background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");
+  background-size: cover;
+  background-position: top center;
   min-height: 100vh;
     min-height: 100vh;
     position: relative;
@@ -57,9 +60,22 @@ body {
     justify-content: space-between;
 
     animation: 2.5s blurinfocus  ease-out;
+*/
+background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");
+  background-size: cover;
+  background-position: top center;
+    position: fixed;
+    width: 100%;
+    /*width: inherit;*/
+    height: 100vh;
+    left: 0;
+    top:0;
+    z-index: 0;
+
+
 
 }
-@keyframes blurinfocus {
+/*@keyframes blurinfocus {
   0% {
     backdrop-filter: blur(20px) contrast(.8);
 
@@ -70,7 +86,7 @@ body {
 
   }
 }
-
+*/
 
 
 
@@ -249,13 +265,15 @@ body > header nav ul li .btn.register-btn-small-heading {
   background: #630a15; }
 
 .btn-highlight {
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(216,216,216,.14);
 /*  background-color: rgba(255,220,168,.5);
   background: #fba84a;*/
   border: 1px solid #fff ;
   color: #fff;
   font-size: 16px;
+  font-size: 21px;
   display: inline-block;
+  backdrop-filter: blur(4px);
   box-shadow: rgba(0, 0, 0, 0.1) 6px -1px 20px 0px;
 }
 
@@ -329,10 +347,10 @@ body > header nav ul li .btn.register-btn-small-heading {
 /* SECTIONS GENERAL -------------------------------------*/
 main {
   /*background-color: pink;*/
-  display: flex;
+/*  display: flex;
   flex-direction: column;
   flex-grow: 2;
-  padding: 10px 20px;
+  padding: 10px 20px;*/
 
 }
 
@@ -454,8 +472,45 @@ main {
 /*    margin-top: 150px;
     margin-bottom: 150px;*/
 /*    background-image: url("../img/conference_logo_chicago_2018-stacked-svg-outline.svg");*/
-    background-repeat: no-repeat;
-    background-position: center center; }
+/*    background-repeat: no-repeat;
+    background-position: center center; }*/
+
+
+section.keynote {
+  background-color: white;
+  position: relative;
+padding: 5rem 12% ;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+footer .logo img {
+    max-width: 58px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ABOUT --------------------------------------------------- */
 #about {
@@ -738,6 +793,14 @@ footer {
   width: 100%;
   font-size: .9em;
  }
+
+
+ footer.cf.become {
+  background-color: brown;
+  /*margin-bottom: 2rem;*/
+ }
+
+
   footer .logo {
     width: 100%;
     text-align: center;
@@ -745,27 +808,47 @@ footer {
   footer .logo img {
     max-width: 58px;
     margin-bottom: 10px; 
-    display: none;
+    opacity: .7;
+    /*display: none;*/
   }
   footer a {
     color: #fff;
     text-decoration: none; }
+
+
   footer .columns {
     display: flex;
-    padding: 0 4%; }
+    font-size: 13px;
+    /*padding: 0 4%; */
+  }
     footer .columns h4 {
-      font-size: 1.2em;
-      text-transform: uppercase; }
+    font-family: futura new;
+    font-size: 1.52em;
+    text-transform: uppercase;
+  }
+
+  footer .col-container {
+    max-width: 300px;
+    margin: 0 auto 2rem;
+  }
+
   footer .col:nth-of-type(1) {
     flex-grow: 1;
-    padding: 2% 4% 0 0;
-    width: 300px;
-    order: 1; }
+    padding: 2% 4%;
+    width: 50%;
+    order: 1;
+    background: #E4264D;
+  }
   footer .col:nth-of-type(2) {
     flex-grow: 1;
-    padding: 2% 2% 0 2%;
-    width: 300px;
-    order: 3; }
+
+    order: 3; 
+
+        padding: 2% 4%;
+    width: 50%;
+    order: 1;
+    background: #3C3C3C;
+  }
   footer .col:nth-of-type(3) {
     padding: 3% 0 0 2%;
     flex-grow: 3;
@@ -815,18 +898,35 @@ footer {
     margin: 0; }
   footer p:last-child.hashtag {
     margin-top: 20px; }
-  footer small {
-    /*background: #202020;*/
-    bottom: 0;
-    display: block;
-    font-size: .7em;
-    letter-spacing: .8px;
-    margin: 0 auto;
-    padding: 8px;
-    padding-top: 10px;
-    opacity: 0.7;
-    text-align: center;
-    width: 100%; }
+
+
+
+
+footer.low {
+  background-color: #303030;
+  padding: 3rem 2% 8px;
+}
+footer.low p {
+  margin:0;
+}
+
+footer.low small {
+  /*background: #202020;*/
+  bottom: 0;
+  display: block;
+  font-size: .7em;
+  letter-spacing: .8px;
+  margin: 0 auto;
+  padding-top: 10px;
+  opacity: 0.7;
+  text-align: center;
+  width: 100%; 
+}
+
+
+
+
+
 
 /* The Modal (background) */
 .modal {
@@ -903,8 +1003,9 @@ footer {
   #attend,
   #passport,
   footer.columns {
-    padding-left: 12%;
-    padding-right: 12%; }
+    /*padding-left: 12%;*/
+    /*padding-right: 12%; */
+  }
   #testimonial {
     background-size: 550px; }
   #attend {
@@ -1011,14 +1112,15 @@ footer {
     min-width: 100%;
     padding: 2% 2% 5% 2%; }
   footer .col:nth-of-type(1) {
-    order: 2; }
+    /*order: 2; */
+  }
     footer .col:nth-of-type(1) img {
       width: 300px;
       margin-top: 20px; }
   footer .col:nth-of-type(2) {
     order: 1; }
   footer .col:nth-of-type(3) {
-    order: 3;
+    /*order: 3;*/
     margin-top: 20px; }
   #testimonial {
     background-position: -60px -10px; }
