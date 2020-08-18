@@ -610,10 +610,11 @@ section.heading-info p.time {
 }
 
 section.heading-info p.comped {
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
     font-weight: bold;
-    font-size: 15px;
-    /*font-style: normal;*/
+    font-size: 19px;
+    padding-bottom: 10px;
+    font-style: normal;
 }
 
 
