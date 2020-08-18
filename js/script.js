@@ -788,3 +788,14 @@ function showBlocks(blocks, offset) {
     ( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).hasClass('is-hidden') ) && $(this).removeClass('is-hidden').addClass('not-hidden');
   });
 }
+
+
+
+
+
+$(".col").hover(function (e) {
+    $(".col").removeClass("active");
+    // or $(".active").removeClass("active");
+    
+    $(this).addClass("active");
+});
