@@ -395,7 +395,10 @@ h2.check.not-hidden {
 
 .btn-highlight:hover {
   background-color: #fff;
-  color: #333;
+  /*color: #E4264D;*/
+  background: rgba(225,225,225,0.42);
+  border: 2px solid rgba(225,225,225,0.02);
+  
   /*margin-left:50px;*/
 }
 /*testing drop down button*/
