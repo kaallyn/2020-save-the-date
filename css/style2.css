@@ -1447,7 +1447,7 @@ footer .col-container {
 
   .heading-info .location{
     font-size: 23px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     letter-spacing: -.001rem;
     padding: 8px 10px 3px;
     background-color: rgba(51, 51, 51, .65);
