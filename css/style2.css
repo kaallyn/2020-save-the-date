@@ -1413,6 +1413,12 @@ footer .columns a.tel {
       width: 50%; } }
 
 @media screen and (max-width: 1000px) {
+footer .col-container {
+    max-width: 500px;
+    text-align: center;
+  }
+
+
   footer .columns {
     flex-wrap: wrap; }
   footer .col:first-child, footer .col:nth-child(2), footer .col:nth-child(3) {
