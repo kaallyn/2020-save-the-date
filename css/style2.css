@@ -1815,6 +1815,22 @@ footer .col-container {
 
   .perks-group {
     margin: 3rem 0 3rem;
+
+  }
+
+  section.keynote .perk p {
+    font-size: 17px;
+  }
+
+  section.keynote p {
+    font-size: 17px;
+
+  }
+
+  footer .columns {
+    display: flex;
+    font-size: 16px;
+    /* padding: 0 4%; */
   }
 
   body > header {
