@@ -536,7 +536,7 @@ main {
   /*background-color: blue;*/
   border-right: 1px solid white;
   /*width: 100%;*/
-  padding:2rem 2rem 0 0;
+  padding:2rem 3rem 0 0;
 
   /*display: flex;*/
   align-items: center;
@@ -567,7 +567,7 @@ main {
     zoom: .9;
     background-image: linear-gradient(183deg, rgba(0,0,0,0.00) 79%, rgba(0,0,0,0.90) 100%);
     background-image: linear-gradient(183deg, rgba(0,0,0,0.00) 79%, rgba(228,38,77,.7) 100%);
-    height: 99vh;
+    min-height: 99vh;
 
     /*background-blend-mode: */
 
@@ -602,13 +602,20 @@ main {
 }*/
 
 .east {
-  margin-left: 2rem;
+  margin-left: 2.7rem;
 }
 
 img.changing {
     width: 100%;
     padding: 2rem 0 0 0;
 }
+
+.left-align {
+    display: block;
+  }
+  .center-align {
+    display: none;
+  }
 
 .east h1 {
   font-family: futura new;
@@ -621,6 +628,11 @@ img.changing {
 .heading-info {
   color:white;
 
+}
+
+.heading-info h2 {
+  font-size: 26px;
+  margin: 1.3rem 0px 1.7rem
 }
 
 .heading-info .location {
@@ -1526,6 +1538,10 @@ footer .col-container {
       margin: 90px 0; } }
 
 @media screen and (max-width: 856px) {
+  .heading-info h2 {
+      font-size: 21px;
+      margin: 1rem 0px 1.3rem;
+  }
   #attend {
     background-size: cover; } }
 
@@ -1561,7 +1577,18 @@ footer .col-container {
   #gronbach-ken .info {
     order: 2; } }
 
+
+
+
 @media screen and (max-width: 740px) {
+  .heading-info h2 {
+      font-size: 21px;
+      margin: 1rem 0px 1.3rem;
+  }
+
+
+
+
   #testimonial {
     padding: 0; }
     #testimonial .right {
@@ -1662,7 +1689,45 @@ footer .col-container {
 
 
 
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 5rem 8% 2rem;
+  }
+  .hero-contain {
+    flex-direction: column;
+  }
+  .west {
+    border-right:none;
+    border-bottom: 1px solid white;
+    padding:0 0 1rem;
+    text-align: center;
+  }
+  .east {
+    margin-left: 0;
+  }
+  .left-align {
+    display: none;
+  }
+  .center-align {
+    display: block;
+  }
 
+  .sidebylogo {
+    max-width: 300px;
+    width: 100%;
+    /*background-color: yellow;*/
+  }
+  .heading-info h2 {
+      font-size: 19px;
+      margin: 1rem 0px 1.3rem;
+      text-align: center;
+  }
+  .ctas {
+    text-align: center;
+  }
+
+
+}
 
 /*@media screen and (max-height: 640px) {
   #heading {
