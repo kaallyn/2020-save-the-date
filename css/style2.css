@@ -277,9 +277,8 @@ body > header nav ul li .btn.register-btn-small-heading {
     border: 2px solid #fff;
     color: #fff;
     font-size: 16px;
-    font-size: 20px;
     letter-spacing: 1px;
-    padding: 20px 31px 17px;
+    padding: 14px 31px ;
     font-weight: lighter;
     display: inline-block;
     backdrop-filter: blur(5px);
@@ -536,22 +535,39 @@ main {
 .west {
   /*background-color: blue;*/
   border-right: 1px solid white;
-  width: 100%;
-  padding-right:2rem;
-  display: flex;
+  /*width: 100%;*/
+  padding:2rem 2rem 0 0;
+
+  /*display: flex;*/
   align-items: center;
+  /*min-width: 320px;*/
 }
 
+.sidebylogo {
+  max-width: 500px;
+  width: 100%;
+  /*background-color: yellow;*/
+}
 
+.hero-contain {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  /*background-color: pink;*/
+  height: fit-content;
+
+}
 .hero {
-    padding: 5rem 3% 4rem;
+    padding: 8rem 8% 2rem;
     /*background-color: pink;*/
     position: relative;
+    align-items: center;
     display: flex;
     z-index: 3;
     zoom: .9;
     background-image: linear-gradient(183deg, rgba(0,0,0,0.00) 79%, rgba(0,0,0,0.90) 100%);
     background-image: linear-gradient(183deg, rgba(0,0,0,0.00) 79%, rgba(228,38,77,.7) 100%);
+    height: 99vh;
 
     /*background-blend-mode: */
 
@@ -565,39 +581,40 @@ main {
   width: 100%;
 }
 
-#heading {
-  /*background-color: yellow;*/
+/*#heading {
+
   background-image: url("../img/student-center-toronto.jpg");
     background-image: url("../img/logo-group-w-date.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   color: #fff;
-  height: 56vh;
   min-height: 275px;
   margin: 0 auto;
-  /*margin-top: 85px;
-  margin-top: 145px;*/
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   max-width: 650px;
   text-align: center; 
-  /*background-color: pink;*/
-
   flex-grow: 2;
 
-}
+}*/
 
 .east {
   margin-left: 2rem;
+}
+
+img.changing {
+    width: 100%;
+    padding: 2rem 0 0 0;
 }
 
 .east h1 {
   font-family: futura new;
   color:white;
   font-size: 50px;
+  margin:0;
 }
 
 
@@ -1647,14 +1664,14 @@ footer .col-container {
 
 
 
-@media screen and (max-height: 640px) {
+/*@media screen and (max-height: 640px) {
   #heading {
-    /*max-height: 200px;*/
+
     height: 56vh;
-    /*display: none;*/
+
     margin-top: 105px;
   }
-}
+}*/
 
 
 
