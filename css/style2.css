@@ -2,6 +2,10 @@
   font-family: "Hevetica Neue";
   src: url("../font/HelveticaNeue-Light.woff") format("truetype"); }
 
+@font-face {
+  font-family: "Hevetica Neue Bold";
+  src: url("../font/HelveticaNeue-Bold.woff") format("truetype"); }
+
 @font-face{font-family:Futura New;src:url("../font/FuturaNewBold.woff") format("woff");font-weight:700;font-style:normal}
 
 .cf:after {
@@ -328,7 +332,7 @@ h1.check.not-hidden {
 
 }
 
-h2.check.is-hidden {
+/*h2.check.is-hidden {
   visibility: hidden;
   opacity: 0;
   offset: ;
@@ -343,7 +347,54 @@ h2.check.not-hidden {
   transition: all 400ms ease-in-out; 
   transition-delay: 550ms;
 
+}*/
+
+.perks-group {
+  margin: 5rem 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+
+.perk {
+  /*background-color: aliceblue;*/
+  text-align: center;
+  width: 30%;
+  margin-bottom: 2rem;
+  min-width: 300px;
+
+
 }
+
+.perk-line {
+  height:1px;
+  background-color: #E4264D;
+  width: 50%;
+  margin:0 auto;
+}
+
+.perk h3 {
+  font-size: 17px;
+  margin:8px;
+  font-weight: bold;
+  color: #505050;
+  text-transform: uppercase;
+  font-family: 'Hevetica Neue Bold';
+}
+section.keynote .perk p {
+  font-size: 15px;
+  line-height: 23px;
+  margin: 8px;
+  letter-spacing: 0;
+  color: #989797;
+}
+
+section.keynote p {
+  font-size: 15px;
+  line-height: 23px;
+  /*margin: 6px;*/
+}
+
 
 .keynote-paras.check.is-hidden {
   visibility: hidden;
@@ -358,7 +409,7 @@ h2.check.not-hidden {
   transform: translateY(0px);
   transition-delay: 250ms;
   transition: all 1200ms ease-in-out; 
-  transition-delay: 1050ms;
+  /*transition-delay: 1050ms;*/
 
 }
 
@@ -683,7 +734,7 @@ section.heading-info p.comped {
 section.keynote {
   background-color: white;
   position: relative;
-  padding: 5rem 12% ;
+  padding: 5rem 3% ;
   width: 100%;
   margin: 4rem auto 0;
   margin: 0 auto 0;
@@ -692,7 +743,8 @@ section.keynote {
 }
 
 .keynote-container {
-  max-width: 1100px;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 p a {
@@ -710,6 +762,8 @@ p a:hover {
   font-family: futura new;
   color: #E4264D;
   font-size: 35px;
+  margin: 2rem auto;
+  max-width: 90%
 }
 
 .keynote h2 {
@@ -717,15 +771,11 @@ p a:hover {
   font-weight: bold;
 }
 
-section.keynote p {
-  font-size: 15px;
-  line-height: 23px;
-  margin: 1.5rem 0;
-}
+
 
 section.keynote p.note {
   font-style: italic;
-  margin-top: 4rem;
+  /*margin-top: 4rem;*/
 }
 
 footer .logo img {
@@ -1638,7 +1688,7 @@ footer .col-container {
 
   section.keynote {
       padding: 4rem 6% ;
-      text-align: left;
+      /*text-align: left;*/
   }
   
 
