@@ -642,6 +642,10 @@ section.keynote {
 
 }
 
+.keynote-container {
+  max-width: 1100px;
+}
+
 p a {
     border-bottom: 1px solid;
     text-decoration: none;
