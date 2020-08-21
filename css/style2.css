@@ -44,7 +44,7 @@ body {
 background-color: #ac2f48;
  /* background-image: url("../img/aqua7-conference-filter.jpg");
   background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");*/
-  background-size: cover;
+  /*background-size: cover;*/
   background-position: top center;
   /*min-height: 100vh;*/
   position: relative;
@@ -56,16 +56,57 @@ background-color: #ac2f48;
 
 .blur-container.clouds {
   background-image: url("../img/cloud-crop-lores.jpg");
-  animation: cloudmove 160s linear infinite;
+  background-size: cover;
+  background-repeat: repeat-x;
+  opacity: 0;
+  background-position: top;
+  background-image: url("https://archive.org/download/clouds-tiled/clouds-tiled.png");
+  background-image: url("../img/cloud-crop-lores.jpg");
+
+
+  animation: cloudmove 30s  linear infinite;
 }
+
 
 @keyframes cloudmove {
 
   0% {
     background-position: 0px
   }
+
+  90% {
+    background-position: 1708px;
+    opacity: 1;
+    /*background-position: -562px;*/
+  }
+
   100% {
-    background-position: 5440px;
+    opacity: 0;
+  }
+}
+
+
+@keyframes cloudmove {
+
+  0% {
+    background-position: 0px
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  50% {
+    /*background-position: 854px;*/
+    opacity: 1;
+    /*background-position: -562px;*/
+  }
+  98% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    background-position: 1708px;
   }
 }
 
