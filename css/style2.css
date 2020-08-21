@@ -407,7 +407,7 @@ h2.check.not-hidden {
   margin: 5rem 0 3rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   }
 
 .perk {
