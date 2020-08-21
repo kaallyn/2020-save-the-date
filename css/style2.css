@@ -41,7 +41,7 @@ body {
   letter-spacing: .6px; }
 
 .container {
-  /*background-color: #d31f3c;*/
+background-color: #ac2f48;
  /* background-image: url("../img/aqua7-conference-filter.jpg");
   background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");*/
   background-size: cover;
@@ -52,6 +52,21 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+}
+
+.blur-container.clouds {
+  background-image: url("../img/clouds.png");
+  animation: cloudmove 160s linear infinite;
+}
+
+@keyframes cloudmove {
+
+  0% {
+    background-position: 0px
+  }
+  100% {
+    background-position: 5440px;
+  }
 }
 
 .blur-container {
@@ -68,7 +83,7 @@ body {
 
     animation: 2.5s blurinfocus  ease-out;
 */
-background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores.jpg");
+background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-cutout.png");
   background-size: cover;
   background-position: top center;
     position: fixed;
@@ -78,8 +93,6 @@ background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-lores
     left: 0;
     top:0;
     z-index: 0;
-
-
 
 }
 /*@keyframes blurinfocus {
