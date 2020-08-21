@@ -2,6 +2,10 @@
   font-family: "Hevetica Neue";
   src: url("../font/HelveticaNeue-Light.woff") format("truetype"); }
 
+@font-face {
+  font-family: "Hevetica Neue Bold";
+  src: url("../font/HelveticaNeue-Bold.woff") format("truetype"); }
+
 @font-face{font-family:Futura New;src:url("../font/FuturaNewBold.woff") format("woff");font-weight:700;font-style:normal}
 
 .cf:after {
@@ -231,7 +235,7 @@ body > header nav ul li .btn.register-btn-small-heading {
   margin: 0 auto;
   /*background-color: blue;*/
   max-width: 800px;
-  text-align: center;
+  /*text-align: center;*/
   margin: 20px auto 0;
   position: relative;
 }
@@ -277,9 +281,8 @@ body > header nav ul li .btn.register-btn-small-heading {
     border: 2px solid #fff;
     color: #fff;
     font-size: 16px;
-    font-size: 20px;
     letter-spacing: 1px;
-    padding: 20px 31px 17px;
+    padding: 14px 31px ;
     font-weight: lighter;
     display: inline-block;
     backdrop-filter: blur(5px);
@@ -329,7 +332,7 @@ h1.check.not-hidden {
 
 }
 
-h2.check.is-hidden {
+/*h2.check.is-hidden {
   visibility: hidden;
   opacity: 0;
   offset: ;
@@ -344,7 +347,54 @@ h2.check.not-hidden {
   transition: all 400ms ease-in-out; 
   transition-delay: 550ms;
 
+}*/
+
+.perks-group {
+  margin: 5rem 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+
+.perk {
+  /*background-color: aliceblue;*/
+  text-align: center;
+  width: 30%;
+  margin-bottom: 2rem;
+  min-width: 300px;
+
+
 }
+
+.perk-line {
+  height:1px;
+  background-color: #E4264D;
+  width: 50%;
+  margin:0 auto;
+}
+
+.perk h3 {
+  font-size: 17px;
+  margin:8px;
+  font-weight: bold;
+  color: #505050;
+  text-transform: uppercase;
+  font-family: 'Hevetica Neue Bold';
+}
+section.keynote .perk p {
+  font-size: 15px;
+  line-height: 23px;
+  margin: 8px;
+  letter-spacing: .5px;
+  color: #696969;
+}
+
+section.keynote p {
+  font-size: 15px;
+  line-height: 23px;
+  /*margin: 6px;*/
+}
+
 
 .keynote-paras.check.is-hidden {
   visibility: hidden;
@@ -359,7 +409,7 @@ h2.check.not-hidden {
   transform: translateY(0px);
   transition-delay: 250ms;
   transition: all 1200ms ease-in-out; 
-  transition-delay: 1050ms;
+  /*transition-delay: 1050ms;*/
 
 }
 
@@ -533,14 +583,42 @@ main {
 
 /* HEADING / HERO ---------------------- */
 
+.west {
+  /*background-color: blue;*/
+  border-right: 1px solid white;
+  /*width: 100%;*/
+  padding:2rem 3rem 0 0;
 
+  /*display: flex;*/
+  align-items: center;
+  /*min-width: 320px;*/
+}
+
+.sidebylogo {
+  max-width: 500px;
+  width: 100%;
+  /*background-color: yellow;*/
+}
+
+.hero-contain {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  /*background-color: pink;*/
+  height: fit-content;
+
+}
 .hero {
-    padding: 0 3% 4rem;
+    padding: 8rem 8% 2rem;
+    /*background-color: pink;*/
     position: relative;
+    align-items: center;
+    display: flex;
     z-index: 3;
     zoom: .9;
     background-image: linear-gradient(183deg, rgba(0,0,0,0.00) 79%, rgba(0,0,0,0.90) 100%);
     background-image: linear-gradient(183deg, rgba(0,0,0,0.00) 79%, rgba(228,38,77,.7) 100%);
+    min-height: 99vh;
 
     /*background-blend-mode: */
 
@@ -554,36 +632,58 @@ main {
   width: 100%;
 }
 
-#heading {
-  /*background-color: yellow;*/
+/*#heading {
+
   background-image: url("../img/student-center-toronto.jpg");
-    background-image: url("../img/date-logo-group-separated-nodate.png");
+    background-image: url("../img/logo-group-w-date.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   color: #fff;
-  height: 56vh;
   min-height: 275px;
   margin: 0 auto;
-  margin-top: 85px;
-  margin-top: 145px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   max-width: 650px;
   text-align: center; 
-
   flex-grow: 2;
 
+}*/
+
+.east {
+  margin-left: 2.7rem;
 }
 
+img.changing {
+    width: 100%;
+    padding: 2rem 0 0 0;
+}
+
+.left-align {
+    display: block;
+  }
+  .center-align {
+    display: none;
+  }
+
+.east h1 {
+  font-family: futura new;
+  color:white;
+  font-size: 50px;
+  margin:0;
+}
 
 
 .heading-info {
   color:white;
-  text-align: center;
-  font-style: italic;
+
+}
+
+.heading-info h2 {
+  font-size: 26px;
+  margin: 1.3rem 0px 1.7rem
 }
 
 .heading-info .location {
@@ -634,7 +734,7 @@ section.heading-info p.comped {
 section.keynote {
   background-color: white;
   position: relative;
-  padding: 5rem 12% ;
+  padding: 5rem 3% ;
   width: 100%;
   margin: 4rem auto 0;
   margin: 0 auto 0;
@@ -643,7 +743,8 @@ section.keynote {
 }
 
 .keynote-container {
-  max-width: 1100px;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 p a {
@@ -660,7 +761,9 @@ p a:hover {
 .keynote h1 {
   font-family: futura new;
   color: #E4264D;
-  font-size: 51px;
+  font-size: 35px;
+  margin: 2rem auto;
+  max-width: 90%
 }
 
 .keynote h2 {
@@ -668,15 +771,11 @@ p a:hover {
   font-weight: bold;
 }
 
-section.keynote p {
-  font-size: 15px;
-  line-height: 23px;
-  margin: 1.5rem 0;
-}
+
 
 section.keynote p.note {
   font-style: italic;
-  margin-top: 4rem;
+  /*margin-top: 4rem;*/
 }
 
 footer .logo img {
@@ -1489,6 +1588,10 @@ footer .col-container {
       margin: 90px 0; } }
 
 @media screen and (max-width: 856px) {
+  .heading-info h2 {
+      font-size: 21px;
+      margin: 1rem 0px 1.3rem;
+  }
   #attend {
     background-size: cover; } }
 
@@ -1524,7 +1627,18 @@ footer .col-container {
   #gronbach-ken .info {
     order: 2; } }
 
+
+
+
 @media screen and (max-width: 740px) {
+  .heading-info h2 {
+      font-size: 21px;
+      margin: 1rem 0px 1.3rem;
+  }
+
+
+
+
   #testimonial {
     padding: 0; }
     #testimonial .right {
@@ -1574,7 +1688,7 @@ footer .col-container {
 
   section.keynote {
       padding: 4rem 6% ;
-      text-align: left;
+      /*text-align: left;*/
   }
   
 
@@ -1625,16 +1739,54 @@ footer .col-container {
 
 
 
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 5rem 8% 2rem;
+  }
+  .hero-contain {
+    flex-direction: column;
+  }
+  .west {
+    border-right:none;
+    border-bottom: 1px solid white;
+    padding:0 0 1rem;
+    text-align: center;
+  }
+  .east {
+    margin-left: 0;
+  }
+  .left-align {
+    display: none;
+  }
+  .center-align {
+    display: block;
+  }
+
+  .sidebylogo {
+    max-width: 300px;
+    width: 100%;
+    /*background-color: yellow;*/
+  }
+  .heading-info h2 {
+      font-size: 19px;
+      margin: 1rem 0px 1.3rem;
+      text-align: center;
+  }
+  .ctas {
+    text-align: center;
+  }
 
 
-@media screen and (max-height: 640px) {
+}
+
+/*@media screen and (max-height: 640px) {
   #heading {
-    /*max-height: 200px;*/
+
     height: 56vh;
-    /*display: none;*/
+
     margin-top: 105px;
   }
-}
+}*/
 
 
 
@@ -1654,6 +1806,33 @@ footer .col-container {
     }
 
 @media screen and (max-width: 470px) {
+  .keynote h1 {
+    font-size: 24px;
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .perks-group {
+    margin: 3rem 0 3rem;
+
+  }
+
+  section.keynote .perk p {
+    font-size: 17px;
+  }
+
+  section.keynote p {
+    font-size: 17px;
+
+  }
+
+  footer .columns {
+    display: flex;
+    font-size: 16px;
+    /* padding: 0 4%; */
+  }
+
   body > header {
     height: 50px;
     background-image: url("../img/ccim-50th-logo-no-tag.svg");
