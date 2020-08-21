@@ -55,7 +55,7 @@ background-color: #ac2f48;
 }
 
 .blur-container.clouds {
-  background-image: url("../img/clouds.png");
+  background-image: url("../img/cloud-crop-lores.jpg");
   animation: cloudmove 160s linear infinite;
 }
 
@@ -83,7 +83,7 @@ background-color: #ac2f48;
 
     animation: 2.5s blurinfocus  ease-out;
 */
-background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-cutout.png");
+background-image: url("../img/layout-mock-hacked-logo-conference-pc-colors-cutout-lores.png");
   background-size: cover;
   background-position: top center;
     position: fixed;
