@@ -222,7 +222,7 @@ header {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
-  font-family: futura new;
+  font-family: "futura new", "Hevetica Neue", Helvetica, Arial, sans-serif;
   color: #E4264D;
   font-weight: bolder;
 }
@@ -722,12 +722,12 @@ img.changing {
     display: none;
   }
 
-.east h1 {
+/*.east h1 {
   font-family: futura new;
   color:white;
   font-size: 50px;
   margin:0;
-}
+}*/
 
 
 .heading-info {
@@ -813,7 +813,7 @@ p a:hover {
 }
 
 .keynote h1 {
-  font-family: futura new;
+  font-family: "futura new", "Hevetica Neue", Helvetica, Arial, sans-serif;
   color: #E4264D;
   font-size: 35px;
   margin: 2rem auto;
@@ -1169,7 +1169,7 @@ footer {
     /*padding: 0 4%; */
   }
     footer .columns h4 {
-    font-family: futura new;
+    font-family: "futura new", "Hevetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.52em;
     text-transform: uppercase;
   }
