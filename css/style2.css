@@ -973,6 +973,7 @@ footer .logo img {
 .speaker .headshot img {
   width: 220px; }
 .speaker .info {
+  background: rgba(35, 35, 35,.6);
   background: #262626;
   margin: -5px auto 20px auto;
   padding: 1%;
@@ -988,6 +989,7 @@ footer .logo img {
 .speaker.check.is-hidden {
   visibility: hidden;
   opacity: 0;
+  cursor:default;
   offset: ;
   transform: translateY(10px); 
 }
@@ -1401,6 +1403,7 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
 
   #attend2020 .sectionhead h2 {
     margin-bottom: 0;
+    font-size: 70px;
   }
   #attend2020 .sectionhead {
     margin: 2rem 0 0rem;

@@ -136,17 +136,17 @@ var speakers = [
 //   bio2: 'Educated at the University of Southern California and the University of Hong Kong, Ma regularly speaks at conferences and real estate events around the world.  She has been a senior instructor at CCIM Institute since 1994 and she has also held several faculty and committee positions with the National Association of REALTORS®. In 2009 Ma was awarded “Women at the Top” award Commercial Real Estate Women (CREW) and was named a World Top Broker by the Real Estate Global Summit.',
 //   special: ''
 // },
-{
-  firstname: 'Laura',
-  lastname: 'Cataldo',
-  displayname: 'Laura Cataldo',
-  title: 'Senior Manager, Construction & Real Estate Services',
-  company: 'Baker Tilly',
-  panel: 'Succession Planning: Your Legacy and the Workforce of the Future | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Laura Cataldo, senior manager with Baker Tilly, joined the firm in 2017. Cataldo works with real estate and construction firms of all sizes to evaluate business practices and assist with management challenges. Having worked in the real estate and construction industry for almost 25 years, she offers a depth of experience working with management teams to improve profitability and succeed in the changing marketplace. Cataldo excels at working with dynamic and demanding environments that require relationship building, versatility and challenge. She is a member of AGC’s Industry Recruitment Taskforce and is the Board Chair-Elect for the Workforce Development Board of South Central Wisconsin.',
-    bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Laura',
+//   lastname: 'Cataldo',
+//   displayname: 'Laura Cataldo',
+//   title: 'Senior Manager, Construction & Real Estate Services',
+//   company: 'Baker Tilly',
+//   panel: 'Succession Planning: Your Legacy and the Workforce of the Future | Monday, Oct. 14 at 1 p.m.',
+//   bio1: 'Laura Cataldo, senior manager with Baker Tilly, joined the firm in 2017. Cataldo works with real estate and construction firms of all sizes to evaluate business practices and assist with management challenges. Having worked in the real estate and construction industry for almost 25 years, she offers a depth of experience working with management teams to improve profitability and succeed in the changing marketplace. Cataldo excels at working with dynamic and demanding environments that require relationship building, versatility and challenge. She is a member of AGC’s Industry Recruitment Taskforce and is the Board Chair-Elect for the Workforce Development Board of South Central Wisconsin.',
+//     bio2: '',
+//   special: ''
+// },
 {
   firstname: 'KC',
   lastname: 'Conway',
@@ -160,17 +160,109 @@ var speakers = [
   bio2: 'In addition to being a frequent lecturer at international conferences, Conway has consulted with major governmental agencies, most notably briefing former Federal Reserve Chairman Ben Bernanke and the Board of Governors on the burgeoning subprime lending and housing crisis and its impact on the commercial real estate industry.',
   special: ''
 },
+
 {
-  firstname: 'Camille',
-  lastname: 'Renshaw',
-  displayname: 'Camille Renshaw, CCIM',
-  title: 'CEO and Co-Founder',
-  company: 'B+E',
-  panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m. <br><b>Session:</b> Innovation and Inclusion: Future-Proofing Your Commercial Real Estate Business | Monday, Oct. 14 at 2:55 p.m.',
-  bio1: 'Camille Renshaw, CCIM, is the CEO and co-founder of B+E, the first tech-driven brokerage and trading platform for net lease real estate. B+E’s trading platform consists of user-friendly dashboards, real-time predictive pricing and an AI-driven exchange — all leveraging the largest data set in the industry. Buyers and sellers can conduct entire transactions online, reviewing real-time credit, news, and tenant data while they trade, much like online stock trading platforms. Prior to B+E, Renshaw was Head of Sales for Ten-X (a Google Capital company), a leading online marketplace for commercial real estate with products such as Auction.com. Prior to Ten-X, she founded the Stan Johnson Company’s New York office where she led their sales team as its top producer for five years.  Before this, she was Director of the US Capital Markets division of Colliers International and a Top 40 Worldwide Producer. Renshaw originally entered commercial real estate as an owner, after founding Dyzco Technologies and successfully selling it to American Financial Services Corp, Inc.',
-  bio2: 'Renshaw was recently honored as a 2019 Real Estate Forum Women of Influence award recipient for achievement in innovation, selected from a record-breaking 350 submissions.  Since 1983, the Women of Influence award has recognized remarkable commercial real estate professionals who have significantly influenced the market or had outstanding successes in the past year.',
+  firstname: 'Ross',
+  lastname: 'Ford',
+  displayname: 'Ross Ford',
+  title: 'President and CEO',
+  company: 'TCN Worldwide',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
   special: ''
 },
+
+
+{
+  firstname: 'Steve',
+  lastname: 'Weikal',
+  displayname: 'Steve Weikal',
+  title: 'Head of Industry Relations',
+  company: 'MIT Center for Real Estate',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
+
+
+
+
+
+{
+  firstname: 'Jeff',
+  lastname: 'Engelstad',
+  displayname: 'Jeff Engelstad, Ph.D, FRICS, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: 'Beyond the Core: CCIM Institute’s Other Professional Development Resources | Monday, Oct. 14 at 9:45 a.m. <br><b>Session:</b> Splitting Profits in Commercial Real Estate | Monday, Oct. 14 at 1 p.m.',
+  bio1: 'Jeff Engelstad Ph.D, FRICS, CCIM, is a professor at the University of Denver and has been active in commercial and investment real estate since 1980. In his capacity as professor, he has published articles in the area of real estate finance and investment and feasibility analysis.',
+  bio2: 'Engelstad has been a CCIM Institute instructor since 2007. He has served as a director of the Colorado Association of Realtors® and as a director of NAIOP Colorado. Engelstad was awarded REALTOR® of the Year in 2001 and the 1996 Presidents Distinguished Service Award by the Aurora Association of REALTORS®. ',
+  special: ''
+},
+
+{
+  firstname: 'Obie',
+  lastname: 'Walli',
+  displayname: 'Obie Walli',
+  title: 'Founder',
+  company: 'Valuation Alliance',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Lydia',
+  lastname: 'Bennett',
+  displayname: 'Lydia Bennett, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Mark',
+  lastname: 'Polon',
+  displayname: 'Mark Polon, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
+{
+  firstname: 'Rod',
+  lastname: 'Santomassimo',
+  displayname: 'Rod Santomassimo, CCIM',
+  title: 'President',
+  company: 'Massimo Group',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
 {
   firstname: 'Kenisha',
   lastname: 'Robnett',
@@ -184,100 +276,66 @@ var speakers = [
   bio2: 'Robnett has managed over 44 million square feet of Walmart Real Estate, assisted with new store development, lease negotiations, and selling excess land. She now represents numerous corporate clients and private investors with acquisitions, dispositions, lease negotiations, and development, as they build their real estate portfolios in retail, land, multifamily, restaurant, office, warehouse, flex space, and more.',
   special: ''
 },
-{
-  firstname: 'Darrel',
-  lastname: 'Fullbright',
-  displayname: 'Darrel Fullbright, AIA, LEED GA',
-  title: 'Principal and Design Director',
-  company: 'Gensler',
-  panel: 'A Closer Look: The Impact of Autonomous Vehicles | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Darrel Fullbright is Gensler’s Firmwide Office Building Practice Area Leader and Principal in the San Diego office. Fullbright leads the firm’s global experts in the strategic planning and exploration of office design and its impact on development. A true client partner and advocate, he leads projects of various types and sizes, and has built a strong reputation as a strategic thinker in the real estate industry by helping his clients grow their commercial office portfolios. Fullbright has designed more than 3-million-square-feet of commercial office, life science, hospitality, and government projects. His vision is to create compelling and purposeful architecture focused on improving his clients’ business operations. Fullbright’s leadership has been recognized through design awards from the AIA, BOMA International, and Contract Magazine.',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Chris',
-  lastname: 'Lo',
-  displayname: 'Chris Lo',
-  title: 'Director, Los Angeles',
-  company: 'Hong Kong Trade Development Council',
-  panel: 'Global Connections Luncheon Keynote | Sunday, Oct. 13 at 12:15 p.m.',
-  bio1: 'As Director of the Hong Kong Trade Development Council (HKTDC) in the West Coast, Chris Lo leads Hong Kong’s trade promotion programs and operations in the region, and he is responsible for facilitating enterprises in the United States to invest, trade and do business in Asia through partnership with Hong Kong.',
-  bio2: 'Lo joined the HKTDC in 2000 and has proven experience in directing trade and investment promotion for various prioritized manufacturing sectors, financial services, tech commercialization, infrastructure investment as well as real estate-related services. He was posted to the HKTDC Paris Office from 2005-07 as Marketing Manager. Prior to his current role, Lo led HKTDC’s promotional program for Hong Kong’s creative industries including design, advertising and marketing services, and was actively engaged in capacity building program for mainland Chinese enterprises to upgrade and transform.',
-  special: ''
-},
-{
-  firstname: 'Jeff',
-  lastname: 'Engelstad',
-  displayname: 'Jeff Engelstad, Ph.D, FRICS, CCIM',
-  title: 'Professor of the Practice, Daniels College of Business',
-  company: 'University of Denver',
-  title2: 'Senior Instructor',
-  company2: 'CCIM Institute',
-  panel: 'Beyond the Core: CCIM Institute’s Other Professional Development Resources | Monday, Oct. 14 at 9:45 a.m. <br><b>Session:</b> Splitting Profits in Commercial Real Estate | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'Jeff Engelstad Ph.D, FRICS, CCIM, is a professor at the University of Denver and has been active in commercial and investment real estate since 1980. In his capacity as professor, he has published articles in the area of real estate finance and investment and feasibility analysis.',
-  bio2: 'Engelstad has been a CCIM Institute instructor since 2007. He has served as a director of the Colorado Association of Realtors® and as a director of NAIOP Colorado. Engelstad was awarded REALTOR® of the Year in 2001 and the 1996 Presidents Distinguished Service Award by the Aurora Association of REALTORS®. ',
-  special: ''
-},
-{
-  firstname: 'Bo',
-  lastname: 'Barron',
-  displayname: 'Bo Barron, CCIM',
-  title: 'CEO and Managing Director',
-  company: 'Barron Commercial Group',
-  title2: 'Workshop Leader',
-  company2: 'CCIM Institute',
-  panel: 'Advanced Prospecting: Learn How to Leverage Storytelling to Win More Business | Monday, Oct. 14 at 9:45 a.m.',
-  bio1: 'Bo Barron, CCIM, is the CEO and Managing Director of Barron Commercial Group. After five years of serving in the Marine Corps, Barron started working for his father at Wm. G. Barron Enterprises as a commercial real estate advisor, becoming the 3rd generation of his family to practice real estate. In October 2010, he purchased the brokerage company from his father and became managing director and owner. In 2013, he accepted a position as Vice President of Organizational Development with SVN International Corporation where he was responsible for growing the productivity and production of SVN advisors nationwide. Barron then worked for three years as COO of The Massimo Group, the leading coaching firm for the nation’s top real estate professionals. After an incredible experience with that team, he returned to lead the family business and rebranded it as Barron Commercial Group.',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Barbara',
-  lastname: 'Crane',
-  displayname: 'Barbara Crane, CCIM',
-  title: '2019 President and Senior Instructor',
-  company: 'CCIM Institute',
-  panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
-  bio1: '2019 CCIM Institute President Barbara Crane, CCIM, also serves as the immediate past president of CCIM Foundation, an affiliate of CCIM Institute that raises funds for scholarships, and as a CCIM senior instructor. In addition, she is an independent broker in San Antonio, specializing in the sale and leasing of office properties and related development and consulting projects. During her 40 years in commercial real estate, Crane has worked on general brokerage, agency leasing services for property owners, tenant representation, and consultation for her clients – including small businesses, law firms, large corporate users, developers, and the Federal Reserve Bank – representing several million square feet of office space.',
-  bio2: 'As a CCIM senior instructor, Crane belongs to an elite group of faculty with practical knowledge of the commercial real estate profession who are grooming the next generation of CRE professionals. For many years, she has helped to write new material for existing CCIM Institute’s core designation courses. During the last few years, Crane has assisted in developing the institute’s blended learning courses, which combine online and classroom study to accommodate busy students’ lives. Among many industry awards, Crane has received the “40 Women in Real Estate” award in 2017 from Connect Media; “Women of Influence” Award in 2013 from Real Estate Forum magazine; and the CCIM Institute “Robert L. Ward Instructor of the Year” Award in 2010. Her love of teaching springs from a mentor who helped her learn and grow. Crane wants to give her students the confidence to do new things and succeed in the commercial real estate profession.',
-  special: ''
-},
-{
-  firstname: 'Renee',
-  lastname: 'Savage',
-  displayname: 'Renee Savage, CCIM, CPM',
-  title: 'President',
-  company: 'Capital Growth Properties',
-  panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
-  bio1: 'As president of Capital Growth Properties, Renee Savage, with more than 30 years of experience in property management, is responsible for the risk management, strategic direction and overall operation of the firm. She leads CGP’s 40+ team members in the management of more than 110 commercial & residential properties totaling over 2.2 million square feet throughout San Diego County.',
-  bio2: 'Savage has been actively involved in the property management industry. She is a past president of IREM San Diego, started and chairs the Student Outreach Committee in San Diego and currently serves as a senior vice president with IREM International. IREM has honored Savage with the CPM of the Year (2006), the Presidential Achievement Award (2009), and the Exceptional Contribution Award (2014) and officially recognized her as a “Woman Changing the World of Real Estate Management” in 2013. Savage is also a past president of the San Diego County Apartment Association and was honored with the President’s Award (1999) and Industry Achievement Award (2007). In 2019 Savage was the Gold winner of the Woman of Influence award for Property Management by GlobeSt.com. Savage is attempting to change the world of real estate management even further by passing on her knowledge and experience to others through teaching and mentoring. She has returned to her alma mater, the University of San Diego, where she earned a Bachelor of Science in Business Administration, to teach the Property Management course in the Master of Science in Real Estate program offered through USD’s Burnham Moore Center.',
-  special: ''
-},
-{
-  firstname: 'Helen',
-  lastname: 'Thompson',
-  displayname: 'Helen Thompson',
-  title: 'Global Marketing Strategy Manager in Real Estate, Banking and Insurance',
-  company: 'Esri',
-  panel: 'The Power of Story Maps to Enhance Your Site Appeal | Monday, Oct. 14 at 11 a.m.',
-  bio1: 'Helen Thompson is the global marketing strategy manager for real estate, banking and insurance for Esri Inc. A recognized thought leader, keynote speaker and expert on location-based data and spatial analysis, Thompson believes that to do intelligent business, the real estate industry first needs to be location intelligent. With more than 30 years’ experience in applying spatial analysis and data to market and tenant analysis, she has helped thousands of companies find new market opportunities by developing a better understanding of people and place.',
-  bio2: 'Thompson is an advocate for advancing analytics and geographic literacy. While every twenty-first century dataset contains location, most businesses remain blind to the value and importance of geographic decision-making. The future of smart cities, drone delivery, autonomous vehicles, IoT, big data and e-commerce relies on our ability to develop better ways of making sense of the world and the changes brought by technology and digital transformation.',
-  special: ''
-},
-{
-  firstname: 'Mark',
-  lastname: 'Vanark',
-  displayname: 'Mark Van Ark, CCIM, SIOR',
-  title: 'Director of Commercial Real Estate',
-  company: 'KW Commercial Real Estate',
-  title2: 'Senior Instructor',
-  company2: 'CCIM Institute',
-  panel: 'Beyond the Core: CCIM Institute’s Other Professional Development Resources | Monday, Oct. 14 at 11 a.m.',
-  bio1: 'Mark Van Ark, CCIM, SIOR, is commercial director of KW Commercial in Boulder, Colo. A native of Boulder, CO, he first obtained his real estate license in 1969, and began learning the business while assisting in the family-owned real estate projects. Van Ark’s real estate business was placed on hold while he worked in the field of law enforcement from 1970-1980. During this period, he earned his undergraduate degree in both criminal justice, as well as real estate. His professional experience included working with the Boulder County Sheriff’s Department as an investigator, as well as a three-year undercover and intelligence assignment with the Drug Enforcement Administration’s (DEA) Denver office.',
-  bio2: 'Van Ark has over thirty years of real estate experience in the commercial and investment field. Van Ark has broad experience in investment sales, office and industrial leasing, land sales and development, including multi-family projects and consulting. As a senior instructor for the CCIM Institute, Van Ark has trained real estate professionals both domestically as well as internationally. These training assignments have included such international locations as Taipei, Tokyo, Warsaw, Moscow and St. Petersburg.',
-  special: ''
-},
+
+// {
+//   firstname: 'Bo',
+//   lastname: 'Barron',
+//   displayname: 'Bo Barron, CCIM',
+//   title: 'CEO and Managing Director',
+//   company: 'Barron Commercial Group',
+//   title2: 'Workshop Leader',
+//   company2: 'CCIM Institute',
+//   panel: 'Advanced Prospecting: Learn How to Leverage Storytelling to Win More Business | Monday, Oct. 14 at 9:45 a.m.',
+//   bio1: 'Bo Barron, CCIM, is the CEO and Managing Director of Barron Commercial Group. After five years of serving in the Marine Corps, Barron started working for his father at Wm. G. Barron Enterprises as a commercial real estate advisor, becoming the 3rd generation of his family to practice real estate. In October 2010, he purchased the brokerage company from his father and became managing director and owner. In 2013, he accepted a position as Vice President of Organizational Development with SVN International Corporation where he was responsible for growing the productivity and production of SVN advisors nationwide. Barron then worked for three years as COO of The Massimo Group, the leading coaching firm for the nation’s top real estate professionals. After an incredible experience with that team, he returned to lead the family business and rebranded it as Barron Commercial Group.',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Barbara',
+//   lastname: 'Crane',
+//   displayname: 'Barbara Crane, CCIM',
+//   title: '2019 President and Senior Instructor',
+//   company: 'CCIM Institute',
+//   panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
+//   bio1: '2019 CCIM Institute President Barbara Crane, CCIM, also serves as the immediate past president of CCIM Foundation, an affiliate of CCIM Institute that raises funds for scholarships, and as a CCIM senior instructor. In addition, she is an independent broker in San Antonio, specializing in the sale and leasing of office properties and related development and consulting projects. During her 40 years in commercial real estate, Crane has worked on general brokerage, agency leasing services for property owners, tenant representation, and consultation for her clients – including small businesses, law firms, large corporate users, developers, and the Federal Reserve Bank – representing several million square feet of office space.',
+//   bio2: 'As a CCIM senior instructor, Crane belongs to an elite group of faculty with practical knowledge of the commercial real estate profession who are grooming the next generation of CRE professionals. For many years, she has helped to write new material for existing CCIM Institute’s core designation courses. During the last few years, Crane has assisted in developing the institute’s blended learning courses, which combine online and classroom study to accommodate busy students’ lives. Among many industry awards, Crane has received the “40 Women in Real Estate” award in 2017 from Connect Media; “Women of Influence” Award in 2013 from Real Estate Forum magazine; and the CCIM Institute “Robert L. Ward Instructor of the Year” Award in 2010. Her love of teaching springs from a mentor who helped her learn and grow. Crane wants to give her students the confidence to do new things and succeed in the commercial real estate profession.',
+//   special: ''
+// },
+// {
+//   firstname: 'Renee',
+//   lastname: 'Savage',
+//   displayname: 'Renee Savage, CCIM, CPM',
+//   title: 'President',
+//   company: 'Capital Growth Properties',
+//   panel: 'Campfire Sessions: Lessons from CCIM Women of Influence | Monday, Oct. 14 at 1 p.m.',
+//   bio1: 'As president of Capital Growth Properties, Renee Savage, with more than 30 years of experience in property management, is responsible for the risk management, strategic direction and overall operation of the firm. She leads CGP’s 40+ team members in the management of more than 110 commercial & residential properties totaling over 2.2 million square feet throughout San Diego County.',
+//   bio2: 'Savage has been actively involved in the property management industry. She is a past president of IREM San Diego, started and chairs the Student Outreach Committee in San Diego and currently serves as a senior vice president with IREM International. IREM has honored Savage with the CPM of the Year (2006), the Presidential Achievement Award (2009), and the Exceptional Contribution Award (2014) and officially recognized her as a “Woman Changing the World of Real Estate Management” in 2013. Savage is also a past president of the San Diego County Apartment Association and was honored with the President’s Award (1999) and Industry Achievement Award (2007). In 2019 Savage was the Gold winner of the Woman of Influence award for Property Management by GlobeSt.com. Savage is attempting to change the world of real estate management even further by passing on her knowledge and experience to others through teaching and mentoring. She has returned to her alma mater, the University of San Diego, where she earned a Bachelor of Science in Business Administration, to teach the Property Management course in the Master of Science in Real Estate program offered through USD’s Burnham Moore Center.',
+//   special: ''
+// },
+// {
+//   firstname: 'Helen',
+//   lastname: 'Thompson',
+//   displayname: 'Helen Thompson',
+//   title: 'Global Marketing Strategy Manager in Real Estate, Banking and Insurance',
+//   company: 'Esri',
+//   panel: 'The Power of Story Maps to Enhance Your Site Appeal | Monday, Oct. 14 at 11 a.m.',
+//   bio1: 'Helen Thompson is the global marketing strategy manager for real estate, banking and insurance for Esri Inc. A recognized thought leader, keynote speaker and expert on location-based data and spatial analysis, Thompson believes that to do intelligent business, the real estate industry first needs to be location intelligent. With more than 30 years’ experience in applying spatial analysis and data to market and tenant analysis, she has helped thousands of companies find new market opportunities by developing a better understanding of people and place.',
+//   bio2: 'Thompson is an advocate for advancing analytics and geographic literacy. While every twenty-first century dataset contains location, most businesses remain blind to the value and importance of geographic decision-making. The future of smart cities, drone delivery, autonomous vehicles, IoT, big data and e-commerce relies on our ability to develop better ways of making sense of the world and the changes brought by technology and digital transformation.',
+//   special: ''
+// },
+// {
+//   firstname: 'Mark',
+//   lastname: 'Vanark',
+//   displayname: 'Mark Van Ark, CCIM, SIOR',
+//   title: 'Director of Commercial Real Estate',
+//   company: 'KW Commercial Real Estate',
+//   title2: 'Senior Instructor',
+//   company2: 'CCIM Institute',
+//   panel: 'Beyond the Core: CCIM Institute’s Other Professional Development Resources | Monday, Oct. 14 at 11 a.m.',
+//   bio1: 'Mark Van Ark, CCIM, SIOR, is commercial director of KW Commercial in Boulder, Colo. A native of Boulder, CO, he first obtained his real estate license in 1969, and began learning the business while assisting in the family-owned real estate projects. Van Ark’s real estate business was placed on hold while he worked in the field of law enforcement from 1970-1980. During this period, he earned his undergraduate degree in both criminal justice, as well as real estate. His professional experience included working with the Boulder County Sheriff’s Department as an investigator, as well as a three-year undercover and intelligence assignment with the Drug Enforcement Administration’s (DEA) Denver office.',
+//   bio2: 'Van Ark has over thirty years of real estate experience in the commercial and investment field. Van Ark has broad experience in investment sales, office and industrial leasing, land sales and development, including multi-family projects and consulting. As a senior instructor for the CCIM Institute, Van Ark has trained real estate professionals both domestically as well as internationally. These training assignments have included such international locations as Taipei, Tokyo, Warsaw, Moscow and St. Petersburg.',
+//   special: ''
+// },
 // {
 //   firstname: 'Mark',
 //   lastname: 'Cypert',
@@ -304,6 +362,88 @@ var speakers = [
   bio2: '',
   special: ''
 },
+
+{
+  firstname: 'Joe',
+  lastname: 'Fisher',
+  displayname: 'Joe Fisher, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
+{
+  firstname: 'Patricia',
+  lastname: 'Lynn',
+  displayname: 'Patricia Lynn, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Mark',
+  lastname: 'Cypert',
+  displayname: 'Mark Cypert, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Soozi',
+  lastname: 'JonesWalker',
+  displayname: 'Soozi Jones Walker, CCIM',
+  title: 'Senior Instructor',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
+{
+  firstname: 'Gene',
+  lastname: 'Trowbridge',
+  displayname: 'Gene Trowbridge, CCIM',
+  title: 'Co-Founding Partner',
+  company: 'Trowbridge Law Group LLP',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Evelyn',
+  lastname: 'Ward',
+  displayname: 'Evelyn Ward, CCIM',
+  title: 'Workshop Leader',
+  company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
 // {
 //   firstname: 'Karl',
 //   lastname: 'Landreneau',
@@ -363,17 +503,7 @@ var speakers = [
 //   bio2: 'Moore is a recognized 1031 Exchange expert and is regularly invited to share his knowledge with realtors, investors, attorneys and property owners through seminars and classes. He is a power sponsor of CCIM Institute and is a former board member of the Federation of Exchange Accommodators (FEA). Moore played an instrumental role in the FEA’s expansion throughout the Pacific Northwest and served as chairman of the FEA Ethics Committee. He is active in Rotary Club and serves on the boards of several charity organizations.',
 //   special: ''
 // },
-{
-  firstname: 'Chip',
-  lastname: 'Watts',
-  displayname: 'Chip Watts, CCIM, CPM',
-  title: '2020 President-Elect',
-  company: 'IREM',
-  panel: 'Building Partnerships: Unlock the Value of Property Manager Referrals | Monday, Oct. 14 at 11 a.m.',
-  bio1: 'Chip Watts, CCIM, CPM, is the 2020 president-elect of IREM (the Institute of Real Estate Management).  He is president and executive CPM for Watts Realty Co., Inc., AMO®, in Birmingham, Alabama. He started his real estate career in 1998 as general manager of Watts Realty, and earned his current title in 2006. During his tenure, he received the AMO accreditation on behalf of the company.',
-  bio2: 'Watts earned his CPM designation in 2004 and his Certified Commercial Investment Member (CCIM) designation in 2002. He served as the 2008 president of IREM’s Alabama chapter and the 2009 president of the CCIM Institute’s Alabama chapter. Watts served for two years as an IREM regional vice president. He also chaired the IREM Chapter Leadership Forum, the AMO Taskforce, and has been a long-time member of the IREM Governing Council. Also in 2008, Watts was honored by the Birmingham Association of REALTORS® with its “REALTOR of the Year” award and served as its president in 2014. He also served as a trustee to the University of Alabama Center for Real Estate Board for ten years, happily wearing his Auburn orange and blue on the Alabama campus!',
-  special: ''
-},
+
 // {
 //   firstname: 'Eddie',
 //   lastname: 'Blanton',
