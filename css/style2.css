@@ -861,6 +861,7 @@ footer .logo img {
   text-align: center;
   font-family: futura new;
   text-transform: uppercase;
+      margin: 2rem 0 3rem;
 }
 
 .sectionhead h2 {
@@ -1181,17 +1182,24 @@ footer .logo img {
 
 .card-container {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 .daycard {
-  max-width: 50%;
+  max-width: 48%;
+  display: flex;
+    flex-direction: column;
   background-color: rgba(210,221,232,.09);
-  border: 1px solid rgba(210,221,232,.4);
+  border-bottom: 1px solid rgba(210,221,232,.4);
+  margin-bottom: 3rem;
+  flex-grow: 1;
 }
 
 .daycard header {
   background-color: #E4264D;
-  padding: 1.53rem 1rem;
+  padding: 1.53rem 1rem 1.13rem;
   text-align: center;
 }
 
@@ -1215,8 +1223,11 @@ footer .logo img {
   width: 100%; 
   display: flex;
   flex-direction: row;
+  
 }
-
+.daycard .event:last-child {
+  height: 100%;
+}
 .event h4 {
   color: #d31f3c; }
   .event h4 span {
@@ -1272,7 +1283,7 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
   padding-left: 30px;
   list-style-type: none;
   line-height: 1.6rem;
-  padding-bottom: 20px;
+  padding-bottom: 12px;
 
 }
 
@@ -1386,6 +1397,13 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
 
  #attend2020 .headerline {
     background-color: #3c3c3c;
+  }
+
+  #attend2020 .sectionhead h2 {
+    margin-bottom: 0;
+  }
+  #attend2020 .sectionhead {
+    margin: 2rem 0 0rem;
   }
 
 /* LODGING ----------------------------------*/
