@@ -189,7 +189,9 @@ h4 {
 
 .left {
   float: left;
-  width: 50%; }
+  width: 50%; 
+  background: rgba(255,255,255,.25);
+}
 
 .right {
   float: right;
@@ -1160,6 +1162,7 @@ footer .logo img {
 }
 #agenda .headerline {
   background-color: #E4264D;
+
 }
 
 /*#agenda h3 {
@@ -1176,17 +1179,39 @@ footer .logo img {
     font-size: 1rem;
     padding-top: 10px; }*/
 
-.daycard {
+.card-container {
+  display: flex;
+}
 
+.daycard {
+  max-width: 50%;
+  background-color: rgba(210,221,232,.25);
+  border: 1px solid rgba(210,221,232,.4);
 }
 
 .daycard header {
   background-color: #E4264D;
+  padding: .5rem 1rem;
 }
+
+.daycard header h3 {
+  font-weight: bold;
+  font-family: 'Hevetica Neue Bold';
+  font-size: 24px;
+}
+.daycard header p {
+  font-size: 16px;
+  color: #D8D8D8;
+  color:rgba(210,221,232,1);
+}
+
 .event {
   border-top: 1px solid #dedede;
   padding: 0;
-  width: 100%; }
+  width: 100%; 
+  display: flex;
+  flex-direction: row;
+}
 
 .event h4 {
   color: #d31f3c; }
@@ -1202,11 +1227,16 @@ footer .logo img {
 
 .event .left {
   width: 20%;
-  display: block;
-  height: 100%; }
+  /*display: block;*/
+  /*height: 100%; */
+}
 
 .event .left p {
-  margin: 1.3em 0 0 5%; }
+  margin: 1.3em ;
+  text-align: right;
+  text-transform: uppercase; 
+  font-size: 14px;
+}
 
 .event .right {
   width: 80%;
@@ -1224,6 +1254,12 @@ footer .logo img {
   font-size: .75rem;
   font-style: italic;
   letter-spacing: 1.7px; }
+
+.event ul li {
+  font-weight: bold;
+  text-decoration: none;
+  
+}
 
 /* TESTIMONIAL ------------------------------------------- */
 #testimonial {
