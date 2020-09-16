@@ -1216,7 +1216,7 @@ footer .logo img {
 }
 
 .daycard {
-  max-width: 48%;
+  width: 48%;
   display: flex;
     flex-direction: column;
   background-color: rgba(210,221,232,.09);
@@ -2108,7 +2108,7 @@ footer .col-container {
 @media screen and (max-width: 785px) {
 
   .daycard {
-    max-width: 100%;
+    width: 100%;
   }
   .keynote h1 {
     font-size: 31px;
