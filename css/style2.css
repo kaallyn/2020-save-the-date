@@ -452,10 +452,10 @@ section.keynote p {
 }
 
 
-.keynote-paras.check.is-hidden {
+.keynote-paras{
   visibility: hidden;
   opacity: 0;
-  offset: ;
+
   transform: translateY(0px); 
   max-width:1000px;
   margin: 0 auto;
@@ -916,6 +916,7 @@ footer .logo img {
   background-color: #3c3c3c;
   background-color: #D2DDE8;
   background-color: #E7EDF3;
+  background-color: white;
   color: #D2DDE8; 
   display: block;
 }
@@ -987,7 +988,7 @@ footer .logo img {
 .speaker .info {
   background: rgba(35, 35, 35,.6);
   /*background: #262626;*/
-  backdrop-filter: blur(9px);
+  backdrop-filter: blur(7px);
   /*margin: -5px auto 20px auto;*/
   padding: 1%;
   width: 220px;
