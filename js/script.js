@@ -792,7 +792,7 @@ for (var prop in sponsors) {
   thisSponsor = sponsors[prop];
   sponsorName= thisSponsor.sponsorname;
   sponsorLogo = thisSponsor.sponsorlogo; 
-  sponsorPod = '<img src="img/sponsors/'+sponsorLogo+'.jpg" alt="'+sponsorName+'" class=" check is-hidden"/>'
+  sponsorPod = '<img src="img/sponsors/'+sponsorLogo+'.jpg" alt="'+sponsorName+'" class=""/>'
   sponsorsGoHere.append(sponsorPod);
 }
 

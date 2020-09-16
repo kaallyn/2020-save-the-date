@@ -1001,7 +1001,7 @@ footer .logo img {
   }
 
 .speaker:hover {
-  cursor: pointer; 
+  /*cursor: pointer; */
 }
 
 .speaker.check.is-hidden {
@@ -1307,7 +1307,7 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
   list-style-type: none;
   line-height: 1.6rem;
   padding-bottom: 12px;
-  ont-size: 16.5px;
+  font-size: 16.5px;
 
 }
 
@@ -1504,7 +1504,7 @@ p.not-member a {
 }
 
  #attend2020 .btn-highlight {
-  padding: 23px 43px;
+  padding: 23px 40px;
   font-size: 21px;
  }
 
