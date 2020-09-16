@@ -1352,11 +1352,11 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
     width: 100%;
     display: flexbox; }
     #sponsors .sponsor-logos img {
-      max-width: 215px;
+      max-width: 207px;
       -webkit-filter: grayscale(100%);
       /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
-      margin: 30px;
+      margin: 30px 15px;
       transiton: all .2s; }
     #sponsors .sponsor-logos img:hover {
       -webkit-filter: grayscale(0%);
@@ -2138,13 +2138,28 @@ footer .col-container {
     margin: 3rem auto 2rem;
     flex-direction: column;
     justify-content: center;
-}
-.attend-col1, .attend-col2 {
-  /*display: block;*/
-  max-width: 100%;
-  text-align:center;
-  margin:auto;
-}
+  }
+  .attend-col1, .attend-col2 {
+    /*display: block;*/
+    max-width: 100%;
+    text-align:center;
+    margin:auto;
+  }
+  .attend-col1 {
+    padding-right:0;
+    border-right: none;
+    text-align: center;
+    padding-bottom: 1rem;
+    /*border-bottom: 1px solid white;*/
+  }
+  .attend-col2 {
+    padding-left:0;
+    border-right: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+
+  }
 
 
   .heading-info .location {
@@ -2166,7 +2181,9 @@ footer .col-container {
 
 
   .speaker, .speaker .headshot img, .speaker .info {
-    width: 260px; } }
+    /*width: 260px; */
+  } 
+  }
 
 @media screen and (max-width: 616px) {
 
