@@ -1055,7 +1055,7 @@ footer .logo img {
       filter: grayscale(0%); }
 
 /* ATTEND ----------------------------------------------- */
-#attend {
+/*#attend {
   background-color: #d31f3c;
   color: #fff;
   background-image: url("../img/attend-bg.jpg");
@@ -1098,7 +1098,17 @@ footer .logo img {
   #attend .pricing:hover {
     color: #fdcd51; }
   #attend .price-info {
-    line-height: 1.6; }
+    line-height: 1.6; }*/
+
+  #attend2020 {
+    background: rgba(228,38,77,.7);
+    position: relative;
+    padding: 5rem 3%;
+    width: 100%;
+    color:white;
+    margin: 0 auto 0;
+    text-align: center;
+  }
 
 /* LODGING ----------------------------------*/
 #lodging {
