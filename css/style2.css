@@ -1405,6 +1405,84 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
   #attend2020 .sectionhead {
     margin: 2rem 0 0rem;
   }
+  .date-time {
+    margin-top: 5px;
+    color: #D2DDE8;
+    text-transform: uppercase;
+        font-size: 25px;
+    font-weight: 100;
+    letter-spacing: -0.01px;
+  }
+
+.attend-columns {
+  display: flex;
+  margin:3rem auto 2rem;
+  justify-content: center;
+
+}
+.attend-col1, .attend-col2 {
+  display: inline-block;
+  max-width: 47%
+}
+
+.attend-col1 {
+  text-align: right;
+  border-right: 2px solid white;
+  padding-right:2.5rem;
+
+}
+
+.attend-col2 {
+  padding-left:2.5rem;
+  vertical-align: top;
+  /*background-color: pink;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.attend-columns .price {
+  font-family: futura new;
+  font-size: 24px;
+}
+
+.attend-columns p {
+  margin:0;
+}
+
+.attend-columns p:first-child {
+  font-size: 24px;
+}
+
+.attend-columns p:first-child {
+  font-size: 24px;
+}
+
+
+.attend-columns p:nth-child(2) {
+  margin: .3rem 0 .6rem;
+  font-size: 20px;
+}
+
+.currency {
+  font-size: 11px;
+}
+
+p.not-member {
+    color: #D2DDE8;
+    font-size: 15px;
+    font-style: italic;
+}
+
+p.not-member a {
+  color: #D2DDE8;
+}
+
+ #attend2020 .btn-highlight {
+  padding: 23px 43px;
+  font-size: 21px;
+ }
+
 
 /* LODGING ----------------------------------*/
 #lodging {
