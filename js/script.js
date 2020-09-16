@@ -121,31 +121,21 @@ $('a[href*="#"]')
 
 
 var speakers = [
-{
-  firstname: 'Jack',
-  lastname: 'Dangermond',
-  displayname: 'Jack Dangermond',
-  title: 'Founder and President',
-  company: 'Esri',
-  panel: 'The Future of Market Analysis: A Conversation with Jack Dangermond | Monday, Oct. 14 at 8:30 a.m.',
-  bio1: 'A landscape architect by training, Jack Dangermond founded Environmental Systems Research Institute (Esri) in 1969 with a vision that computer mapping and analysis could help us design a better future. Under Dangermond\'s leadership, that vision has continued to guide Esri in creating cutting-edge GIS and Geodesign technologies used in every industry to make a difference worldwide. Dangermond fostered the growth of Esri from a small research group to an organization recognized as the world leader in GIS software development. Esri employs more than 4,000 people worldwide; many who shared his passion for GIS in the early days are still with the company and remain dedicated to helping Esri users be successful.',
-  bio2: '',
-  special: 'Keynote Address'
-},
 
-{
-  firstname: 'Carmela',
-  lastname: 'Ma',
-  displayname: 'Carmela Ma, CCIM',
-  title: 'President',
-  company: 'CJM Associates, Inc.',
-  title2: 'Senior Instructor',
-  company2: 'CCIM Institute',
-  panel: 'Cross-Border Investment Primer | Monday, Oct. 14 at 9:45 a.m.',
-  bio1: 'Carmela Ma, CCIM, is President/CEO of CJM Associates, Inc., which specializes in real estate investment, advisement, and global transactions. She has conducted business in more than 30 countries, including projects in Asia, Africa, Europe, and the Americas.',
-  bio2: 'Educated at the University of Southern California and the University of Hong Kong, Ma regularly speaks at conferences and real estate events around the world.  She has been a senior instructor at CCIM Institute since 1994 and she has also held several faculty and committee positions with the National Association of REALTORS®. In 2009 Ma was awarded “Women at the Top” award Commercial Real Estate Women (CREW) and was named a World Top Broker by the Real Estate Global Summit.',
-  special: ''
-},
+
+// {
+//   firstname: 'Carmela',
+//   lastname: 'Ma',
+//   displayname: 'Carmela Ma, CCIM',
+//   title: 'President',
+//   company: 'CJM Associates, Inc.',
+//   title2: 'Senior Instructor',
+//   company2: 'CCIM Institute',
+//   panel: 'Cross-Border Investment Primer | Monday, Oct. 14 at 9:45 a.m.',
+//   bio1: 'Carmela Ma, CCIM, is President/CEO of CJM Associates, Inc., which specializes in real estate investment, advisement, and global transactions. She has conducted business in more than 30 countries, including projects in Asia, Africa, Europe, and the Americas.',
+//   bio2: 'Educated at the University of Southern California and the University of Hong Kong, Ma regularly speaks at conferences and real estate events around the world.  She has been a senior instructor at CCIM Institute since 1994 and she has also held several faculty and committee positions with the National Association of REALTORS®. In 2009 Ma was awarded “Women at the Top” award Commercial Real Estate Women (CREW) and was named a World Top Broker by the Real Estate Global Summit.',
+//   special: ''
+// },
 {
   firstname: 'Laura',
   lastname: 'Cataldo',
@@ -567,67 +557,65 @@ function imgError(source) {
 }
 
 // Speaker Bio Modals
-var modalStart = '<div class="modal"><div class="modal-content cf"><p class="close-modal">x</p>';
-var modalEnd = '</div></div>';
-var showModal = function(){$(".modal").removeClass("fadeOut").addClass("fadeIn")}
-var deleteModal = function(){
-  this.remove();
-};
+
+// ADD THIS BACK IN IF WE WANT MODALS
+// var modalStart = '<div class="modal"><div class="modal-content cf"><p class="close-modal">x</p>';
+// var modalEnd = '</div></div>';
+// var showModal = function(){$(".modal").removeClass("fadeOut").addClass("fadeIn")}
+// var deleteModal = function(){
+//   this.remove();
+// };
+
+
 
 // var closeModal = function(){$('.close-modal').on('click', function(){
+//                     $("div[class^='modal']").removeClass("fadeIn").addClass("fadeOut").delay(800).remove();
 
-//           $(this).parent().parent().removeClass("fadeIn").addClass("fadeOut").setTimeout(deleteModal, 500).remove();
-//                   });
-// }
-
-var closeModal = function(){$('.close-modal').on('click', function(){
-                    $("div[class^='modal']").removeClass("fadeIn").addClass("fadeOut").delay(800).remove();
-
-                  });}
+//                   });}
 
 
 
-var closeModalBtn = '<a href="javascript:void(0)" class="btn btn-sm btn-primary close-modal">Close</a>'
-var keynote = $('.keynote');
-var speaker = $('.speaker');
-var speakerBioName;
-var speakerBio;
-var speakerPos;
-var speakerBioTitle;
-var speakerBioCompany;
-var speakerBioTitle2;
-var speakerBioCompany2;
-var speakerHeadshot;
-var speakerPanel;
-var secondTitle;
+// var closeModalBtn = '<a href="javascript:void(0)" class="btn btn-sm btn-primary close-modal">Close</a>'
+// var keynote = $('.keynote');
+// var speaker = $('.speaker');
+// var speakerBioName;
+// var speakerBio;
+// var speakerPos;
+// var speakerBioTitle;
+// var speakerBioCompany;
+// var speakerBioTitle2;
+// var speakerBioCompany2;
+// var speakerHeadshot;
+// var speakerPanel;
+// var secondTitle;
 
-speaker.on('click', function(){
-  speakerPos = ($(this).index('.speaker'));
-  console.log(speakerPos);
-  speakerBioName = $(this).find('.name').text();
-  thisSpeaker = speakers[speakerPos];
-  speakerBio = '<p>'+thisSpeaker.bio1+'</p><p>'+thisSpeaker.bio2+'</p>';
-  speakerBioTitle = thisSpeaker.title;
-  speakerBioCompany = thisSpeaker.company;
-  speakerBioTitle2 = thisSpeaker.title2;
-  speakerBioCompany2 = thisSpeaker.company2;
-  speakerPanel = thisSpeaker.panel;
-  speakerHeadshot = $(this).find('img').attr('src');
-  secondTitle = thisSpeaker.secondTitle;
-  if (speakerBioTitle2 === undefined) {
-    secondTitle = 'hidden';
-    highClass= '';
-  } else {
-    secondTitle = 'show';
-    highClass= 'feature';
-  }
+// speaker.on('click', function(){
+//   speakerPos = ($(this).index('.speaker'));
+//   console.log(speakerPos);
+//   speakerBioName = $(this).find('.name').text();
+//   thisSpeaker = speakers[speakerPos];
+//   speakerBio = '<p>'+thisSpeaker.bio1+'</p><p>'+thisSpeaker.bio2+'</p>';
+//   speakerBioTitle = thisSpeaker.title;
+//   speakerBioCompany = thisSpeaker.company;
+//   speakerBioTitle2 = thisSpeaker.title2;
+//   speakerBioCompany2 = thisSpeaker.company2;
+//   speakerPanel = thisSpeaker.panel;
+//   speakerHeadshot = $(this).find('img').attr('src');
+//   secondTitle = thisSpeaker.secondTitle;
+//   if (speakerBioTitle2 === undefined) {
+//     secondTitle = 'hidden';
+//     highClass= '';
+//   } else {
+//     secondTitle = 'show';
+//     highClass= 'feature';
+//   }
 
-  $b.append(modalStart+'<h1>'+speakerBioName+'</h1><h2>'+speakerBioTitle+' | '+speakerBioCompany+'</h2><h2 class="'+secondTitle+'">'+speakerBioTitle2+' | '+speakerBioCompany2+'</h2><img src="'+speakerHeadshot+'"><p>'+speakerBio+'</p><p class="speaker-session"><strong>Session: </strong>'+speakerPanel+'</p>'+modalEnd);
-  showModal();
-  closeModal();
+//   $b.append(modalStart+'<h1>'+speakerBioName+'</h1><h2>'+speakerBioTitle+' | '+speakerBioCompany+'</h2><h2 class="'+secondTitle+'">'+speakerBioTitle2+' | '+speakerBioCompany2+'</h2><img src="'+speakerHeadshot+'"><p>'+speakerBio+'</p><p class="speaker-session"><strong>Session: </strong>'+speakerPanel+'</p>'+modalEnd);
+//   showModal();
+//   closeModal();
 
 
-});
+// });
 
 
 /*Generate Sessions*/
