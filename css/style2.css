@@ -1222,7 +1222,8 @@ footer .logo img {
   background-color: rgba(210,221,232,.09);
   border-bottom: 1px solid rgba(210,221,232,.4);
   margin-bottom: 3rem;
-  flex-grow: 1;
+  display: grid;
+  /*flex-grow: 1 1 auto;*/
   /*flex: 0 1 auto;*/
 }
 
@@ -1263,8 +1264,8 @@ footer .logo img {
   width: 100%; 
   display: flex;
   flex-direction: row;
-  clear:both;
-  /*flex: 0 0 auto;*/
+  /*clear:both;*/
+  flex: 1 1 auto;
   
 }
 .daycard .event:last-child {
@@ -1305,7 +1306,7 @@ footer .logo img {
   /*flex: 0 1 auto;*/
 }
 
-.event .who {
+/*.event .who {
   float: left; 
 }
 
@@ -1318,7 +1319,7 @@ footer .logo img {
   font-size: .75rem;
   font-style: italic;
   letter-spacing: 1.7px; }
-
+*/
 .event ul li {
   font-weight: bold;
   text-decoration: none;
