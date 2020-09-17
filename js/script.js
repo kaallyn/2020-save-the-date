@@ -198,7 +198,7 @@ var speakers = [
 {
   firstname: 'Jeff',
   lastname: 'Engelstad',
-  displayname: 'Jeff Engelstad, Ph.D, FRICS, CCIM',
+  displayname: 'Jeff Engelstad, PhD, FRICS, CCIM',
   title: 'Senior Instructor',
   company: 'CCIM Institute',
   title2: '',
