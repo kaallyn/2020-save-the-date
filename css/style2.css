@@ -1233,10 +1233,13 @@ footer .logo img {
   text-align: center;
 }
 
+.breakouts-time {
+  text-transform: uppercase;
+}
 .daycard header.exclusive{
   background-color: #D2DDE8;
   color: #3c3c3c;
-  padding: 1.53rem 1rem 1.13rem;
+  padding: 1.13rem 1rem 1.13rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1295,7 +1298,7 @@ footer .logo img {
   margin: 1.3em .4rem;
   text-align: center;
   text-transform: uppercase; 
-  font-size: 14px;
+  font-size: 13.5px;
 
 }
 
@@ -1333,9 +1336,34 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
 
 }
 
+.event a {
+  color: #D2DDE8;
+}
+
+.right li p {
+  font-size: 15px;
+  color: 
+}
+
 span.star {
   color:#E4264D;
   font-weight:bold;
+}
+
+strike {
+  color:red;
+  color: #D2DDE8;
+}
+span.striking {
+  color:white;
+}
+
+.soldout {
+  text-transform: uppercase;
+  font-family: futura new;
+  color:#E4264D;
+  font-size: 19px;
+  
 }
 
 .members-sessions {

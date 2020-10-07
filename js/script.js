@@ -150,7 +150,7 @@ var speakers = [
 {
   firstname: 'KC',
   lastname: 'Conway',
-  displayname: 'K.C. Conway, MAI, CRE',
+  displayname: 'K.C. Conway, CCIM, MAI, CRE',
   title: 'Chief Economist',
   company: 'CCIM Institute',
   title2: 'Director of Research',
@@ -175,6 +175,20 @@ var speakers = [
   special: ''
 },
 
+{
+  firstname: 'Maggie',
+  lastname: 'Coleman',
+  displayname: 'Maggie Coleman',
+  title: 'Director and Head of International Capital',
+  company: 'JLL',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
 
 {
   firstname: 'Steve',
@@ -182,6 +196,45 @@ var speakers = [
   displayname: 'Steve Weikal',
   title: 'Head of Industry Relations',
   company: 'MIT Center for Real Estate',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Jeff',
+  lastname: 'Lyon',
+  displayname: 'Jeff Lyon, CCIM',
+  title: 'Chairman',
+  company: 'Kidder Matthews',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Len',
+  lastname: 'Shannon',
+  displayname: 'Len Shannon III, CCIM',
+  title: 'Partner',
+  company: 'Shannon Waltchack',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+{
+  firstname: 'Marvin',
+  lastname: 'Banks',
+  displayname: 'Marvin Banks',
+  title: 'President',
+  company: 'M. Banks Realty Partners',
   title2: '',
   company2: '',
   panel: '',
@@ -409,6 +462,20 @@ var speakers = [
   displayname: 'Soozi Jones Walker, CCIM',
   title: 'Senior Instructor',
   company: 'CCIM Institute',
+  title2: '',
+  company2: '',
+  panel: '',
+  bio1: '',
+  bio2: '',
+  special: ''
+},
+
+{
+  firstname: 'Ed',
+  lastname: 'Riggins',
+  displayname: 'Ed Riggins, CCIM',
+  title: 'President',
+  company: 'Riggo & Company',
   title2: '',
   company2: '',
   panel: '',
