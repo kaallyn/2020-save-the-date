@@ -597,114 +597,126 @@ var sponsors = [
     sponsorlogo: 'esri-logo'
   },
   {
-    sponsorname: 'RE/MAX',
-    sponsorlogo: 'remax-logo'
+    sponsorname: 'CoStar LoopNet Ten-X',
+    sponsorlogo: 'ten-x-logo'
   },
-  {
-    sponsorname: 'CoStar',
-    sponsorlogo: 'costar-logo'
-  },
-  {
-    sponsorname: 'National Association of Realtors (NAR) Commercial',
-    sponsorlogo: 'nar-commercial-logo'
-  },
-  {
-    sponsorname: 'Equity Advantage',
-    sponsorlogo: 'equity-logo'
-  },
-
   {
     sponsorname: 'Granite Properties',
     sponsorlogo: 'granite-logo'
   },
   {
-    sponsorname: 'Biproxi',
-    sponsorlogo: 'biproxi-logo'
-  },
-  {
     sponsorname: 'Lee & Associates',
     sponsorlogo: 'lee-logo'
-  },
-
-
-
-  {
-    sponsorname: 'Buildout',
-    sponsorlogo: 'buildout-logo'
-  },
-  {
-    sponsorname: 'Century 21 Commercial',
-    sponsorlogo: 'century21-logo'
-  },
-  {
-    sponsorname: 'CompStak',
-    sponsorlogo: 'compstak-logo'
   },
   {
     sponsorname: 'CrowdfundingLawyers.net | Trowbridge Sidoti LLP',
     sponsorlogo: 'crowdfunding-lawyers-logo'
   }, 
   {
-    sponsorname: 'France Media',
-    sponsorlogo: 'france-logo'
+    sponsorname: 'Inland',
+    sponsorlogo: 'inland-logo'
   },
-  {
-    sponsorname: 'Lightbox',
-    sponsorlogo: 'lightbox-logo'
-  },
-  {
-    sponsorname: 'Live Oak Bank',
-    sponsorlogo: 'live-oak-logo'
-  },
-  {
-    sponsorname: 'Reonomy',
-    sponsorlogo: 'reonomy-logo'
-  },
-  {
-    sponsorname: 'SVN',
-    sponsorlogo: 'svn-logo'
-  },
-  {
-    sponsorname: 'Ten-X',
-    sponsorlogo: 'ten-x-logo'
-  },
-  {
-    sponsorname: 'CREXi',
-    sponsorlogo: 'crexi-logo'
-  },
-  {
-    sponsorname: 'AREAA',
-    sponsorlogo: 'areaa-logo'
-  },
-  {
+    {
     sponsorname: 'Corfac International',
     sponsorlogo: 'corfac-logo'
   },
+
+
+
+  // {
+  //   sponsorname: 'RE/MAX',
+  //   sponsorlogo: 'remax-logo'
+  // },
+  // {
+  //   sponsorname: 'CoStar',
+  //   sponsorlogo: 'costar-logo'
+  // },
+  // {
+  //   sponsorname: 'National Association of Realtors (NAR) Commercial',
+  //   sponsorlogo: 'nar-commercial-logo'
+  // },
+  // {
+  //   sponsorname: 'Equity Advantage',
+  //   sponsorlogo: 'equity-logo'
+  // },
+
   
-  {
-    sponsorname: 'IREM',
-    sponsorlogo: 'irem-logo'
-  },
-  {
-    sponsorname: 'iREOC',
-    sponsorlogo: 'ireoc-logo'
-  },
-  {
-    sponsorname: 'Walker & Dunlop',
-    sponsorlogo: 'walker-dunlop-logo'
-  },
-  {
-    sponsorname: 'Coldwell Banker Commercial',
-    sponsorlogo: 'cbc-logo'
-  },
-  {
-    sponsorname: 'KW Commercial',
-    sponsorlogo: 'kw-logo'
-  },
-  {
-    sponsorname: 'GlobeSt.',
-    sponsorlogo: 'globest-logo'
-  },
+  // {
+  //   sponsorname: 'Biproxi',
+  //   sponsorlogo: 'biproxi-logo'
+  // },
+  
+
+
+
+  // {
+  //   sponsorname: 'Buildout',
+  //   sponsorlogo: 'buildout-logo'
+  // },
+  // {
+  //   sponsorname: 'Century 21 Commercial',
+  //   sponsorlogo: 'century21-logo'
+  // },
+  // {
+  //   sponsorname: 'CompStak',
+  //   sponsorlogo: 'compstak-logo'
+  // },
+  
+  // {
+  //   sponsorname: 'France Media',
+  //   sponsorlogo: 'france-logo'
+  // },
+  // {
+  //   sponsorname: 'Lightbox',
+  //   sponsorlogo: 'lightbox-logo'
+  // },
+  // {
+  //   sponsorname: 'Live Oak Bank',
+  //   sponsorlogo: 'live-oak-logo'
+  // },
+  // {
+  //   sponsorname: 'Reonomy',
+  //   sponsorlogo: 'reonomy-logo'
+  // },
+  // {
+  //   sponsorname: 'SVN',
+  //   sponsorlogo: 'svn-logo'
+  // },
+
+  // {
+  //   sponsorname: 'CREXi',
+  //   sponsorlogo: 'crexi-logo'
+  // },
+  // {
+  //   sponsorname: 'AREAA',
+  //   sponsorlogo: 'areaa-logo'
+  // },
+
+  
+  // {
+  //   sponsorname: 'IREM',
+  //   sponsorlogo: 'irem-logo'
+  // },
+  // {
+  //   sponsorname: 'iREOC',
+  //   sponsorlogo: 'ireoc-logo'
+  // },
+  // {
+  //   sponsorname: 'Walker & Dunlop',
+  //   sponsorlogo: 'walker-dunlop-logo'
+  // },
+  // {
+  //   sponsorname: 'Coldwell Banker Commercial',
+  //   sponsorlogo: 'cbc-logo'
+  // },
+  // {
+  //   sponsorname: 'KW Commercial',
+  //   sponsorlogo: 'kw-logo'
+  // },
+  // {
+  //   sponsorname: 'GlobeSt.',
+  //   sponsorlogo: 'globest-logo'
+  // },
 
 
   
