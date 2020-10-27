@@ -179,8 +179,8 @@ var speakers = [
   firstname: 'Maggie',
   lastname: 'Coleman',
   displayname: 'Maggie Coleman',
-  title: 'Director and Head of International Capital',
-  company: 'JLL',
+  title: 'Managing Partner, Private Capital Advisory',
+  company: 'BFIN',
   title2: '',
   company2: '',
   panel: '',
@@ -609,8 +609,8 @@ var sponsors = [
     sponsorlogo: 'lee-logo'
   },
   {
-    sponsorname: 'CrowdfundingLawyers.net | Trowbridge Sidoti LLP',
-    sponsorlogo: 'crowdfunding-lawyers-logo'
+    sponsorname: 'Trowbridge Law Group',
+    sponsorlogo: 'trowbridge-logo'
   }, 
   {
     sponsorname: 'Inland',

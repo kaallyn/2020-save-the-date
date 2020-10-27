@@ -1289,7 +1289,7 @@ footer .logo img {
 .event .left {
   width: 20%;
   min-width: 139px;
-    padding: 5% 1% 0;
+    padding: 4% 1% 0;
   /*display: block;*/
   /*height: 100%; */
 }
@@ -1308,6 +1308,8 @@ footer .logo img {
   margin-top:;
   /*flex: 0 1 auto;*/
 }
+
+
 
 /*.event .who {
   float: left; 
@@ -1343,6 +1345,40 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
 .right li p {
   font-size: 15px;
   color: 
+}
+
+.tradeshow {
+  color: #3c3c3c;
+  background:#D2DDE8;
+}
+
+.daycard header.tradeheader {
+    background-color: #D2DDE8;
+    color: #3c3c3c;
+    padding: 1.93rem 1rem 1.13rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tradeshow .left {
+  /*background:#D2DDE8;*/
+  /*font-family: 'Hevetica Neue Bold';*/
+  padding: 2% 1% 0;
+}
+
+.tradeshow ul li {
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+
+.tradeshow .right {
+  padding: 1% 3% 0;
+  font-weight: bold;
+  font-family: 'Hevetica Neue Bold';
+}
+.tradeshow .left p {
+    margin: 1.2em .4rem;
+
 }
 
 span.star {
