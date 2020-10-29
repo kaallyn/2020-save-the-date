@@ -5,6 +5,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
+
     $(".fade").hide(0).delay(100).fadeIn(200);
     // (".hero").delay(200).addClass('animated fadeInDown')
     $(".conf-logo").addClass('animated fadeInDown');
@@ -28,11 +29,11 @@ $(document).ready(function(){
 // Speaker Bio Modals
 
 
-// var closeModal = function(){$('.close-modal').on('click', function(){
+var closeModal = function(){$('.close-modal').on('click', function(){
 
-//           $(this).parent().parent().removeClass("fadeIn").addClass("fadeOut").setTimeout(deleteModal, 500).remove();
-//                   });
-// }
+          $(this).parent().parent().removeClass("fadeIn").addClass("fadeOut").setTimeout(deleteModal, 500).remove();
+                  });
+}
 
 
 
@@ -768,19 +769,19 @@ function imgError(source) {
 // Speaker Bio Modals
 
 // ADD THIS BACK IN IF WE WANT MODALS
-// var modalStart = '<div class="modal"><div class="modal-content cf"><p class="close-modal">x</p>';
-// var modalEnd = '</div></div>';
-// var showModal = function(){$(".modal").removeClass("fadeOut").addClass("fadeIn")}
-// var deleteModal = function(){
-//   this.remove();
-// };
+var modalStart = '<div class="modal"><div class="modal-content cf"><p class="close-modal">x</p>';
+var modalEnd = '</div></div>';
+var showModal = function(){$(".modal").removeClass("fadeOut").addClass("fadeIn")}
+var deleteModal = function(){
+  this.remove();
+};
 
 
 
-// var closeModal = function(){$('.close-modal').on('click', function(){
-//                     $("div[class^='modal']").removeClass("fadeIn").addClass("fadeOut").delay(800).remove();
+var closeModal = function(){$('.close-modal').on('click', function(){
+                    $("div[class^='modal']").removeClass("fadeIn").addClass("fadeOut").delay(800).remove();
 
-//                   });}
+                  });}
 
 
 
@@ -878,12 +879,15 @@ for (var prop in sponsors) {
 // Show pricing details
 var prices = $('.pricing');
 var ticket = $('.tickets');
-prices.on('click', function(){
-  $b.append(modalStart+'<h1>Pricing</h1><h2>Main Conference | Oct. 14</h2><p><span>CCIM Member: $295 USD</span><span class="no-sale"> SOLD OUT</span><br><span>Non-member: $345 USD</span> <span class="no-sale"> SOLD OUT</span></p><h2>Related Events | Oct. 13</h2><ul><li>Global Connections Luncheon (Oct. 13): $100</li><li><span>Official Opening Reception (Oct. 13): Free for Conference Registrants</span> <span class="no-sale"> SOLD OUT</span></li><li><span>San Diego Chapter Networking Event (Oct. 13): $85</span><span class="no-sale"> SOLD OUT</span></li></ul><br><p></p><br>'+modalEnd);
+
+$(document).ready(function(){
+  $b.append(modalStart+'<h2>It’s time to join the virtual conference</h2><p>All attendees who registered before Oct. 29 should have received a email with login access to the virtual conference platform at <a href="https://ccimconference.pathable.co" class="modal-link">ccimconference.pathable.co</a>. Attendees who have registered since then should receive a welcome email within 24 hours. <div class="dropdown"><a class="dropbtn btn btn-highlight sold-out-btn  " href="https://ccimconference.pathable.co/">Join Conference</a></div></p><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>.</p><br>'+modalEnd);
   $('.modal-content').addClass('price-info');
   showModal();
   closeModal();
 });
+
+
 
 var $w = $(window);
 var $b= $('body');

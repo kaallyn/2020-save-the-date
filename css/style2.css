@@ -931,6 +931,7 @@ footer .logo img {
 
 .modal-content p {
   color: #3c3c3c;
+  margin: .35rem 0 1rem 0;
 }
 
 
@@ -1125,7 +1126,7 @@ footer .logo img {
   width: 150px;
   float: right;
   margin: .25rem 0 20px 20px; }
-.modal-content .close-modal {
+/*.modal-content .close-modal {
   text-align: right;
   font-size: 40px;
   font-weight: bold;
@@ -1133,7 +1134,7 @@ footer .logo img {
   padding: 10px 10px 10px 20px;
   width: 50px;
   float: right;
-}
+}*/
 .modal-content .close-modal:hover {
   color: #E4264D;
   cursor: pointer; 
@@ -1143,11 +1144,11 @@ footer .logo img {
   border-top: 1px solid #dedede; 
 }
 
-.modal-content.price-info h2 {
+/*.modal-content.price-info h2 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
-  margin-top: 40px; }
+  margin-top: 40px; }*/
 
 .modal-content.memberRegistration-info {
   letter-spacing: 1px;
@@ -1168,6 +1169,7 @@ footer .logo img {
   font-size: 2.2rem;
   letter-spacing: .0px;
   margin-top: 3rem;
+  margin-bottom: 15px;
 }
 
 .modal-content.memberRegistration-info .btn-highlight  span{
@@ -1949,12 +1951,20 @@ footer .columns a.tel {
   background-color: #fefefe;
   margin: 2% auto;
   /* 2 from the top and centered */
-  padding: 20px 40px;
+  padding: 12px 34px;
   width: 75%;
+  text-align: center;
+      position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    /* bottom: 50%; */
+    height: fit-content;
   /* Could be more or less, depending on screen size */
   transition: all .5s;
-  max-width: 900px;
+  max-width: 700px;
   font-size: .9rem; }
+
   .modal-content h1 {
     margin: 0 0 0 -40px;
     padding: 5px 5px 5px 40px;
@@ -1967,13 +1977,15 @@ footer .columns a.tel {
     margin: 0 0 20px 20px; }
   .modal-content .close-modal {
     text-align: right;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 29px;
+    color: #B5B3B3;
+    /*font-weight: bold;*/
     margin: 0;
-    padding: 10px 10px 10px 20px;
-    width: 50px;
+    /*padding: 10px 10px 10px 20px;*/
+    /*width: 50px;*/
     float: right;
-    margin: -15px 0 0 0; }
+    margin: -15px -23px 0 0;
+  }
   .modal-content .close-modal:hover {
     color: #d31f3c;
     cursor: pointer; }
@@ -1982,10 +1994,47 @@ footer .columns a.tel {
     border-top: 1px solid #dedede; }
 
 .modal-content.price-info h2 {
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-transform: uppercase;
-  text-align: left;
+  font-family: 'Futura New';
+    color: #E4264D;
+  text-align: center;
+  font-size: 25px;
   margin-top: 40px; }
+
+  p a.close-modal.modal-link {
+    margin: 0;
+    color: #E4264D;
+    float: none;
+    font-size: inherit;
+    display: initial;
+    padding: 0 0 .1rem 0;
+  }
+
+  p a.modal-link, .modal-content p a {
+    padding:0 0 .1rem 0;
+  }
+  p a.modal-link:hover, .modal-content p a:hover {
+    padding:0 0 .3rem 0;
+  }
+  .modal-content h3 {
+    font-family: 'Futura New';
+    font-size: 19px;
+    margin-bottom: 0;
+}
+  .modal-content a.dropbtn.btn.btn-highlight.sold-out-btn {
+    border: 2px solid #E4264D;
+    color: #E4264D;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 10px 23px;
+}
+
+.modal-content a.dropbtn.btn.btn-highlight.sold-out-btn:hover {
+  color: white;
+  background-color: #E4264D;
+
+}
 
 @media screen and (min-width: 1573px) {
   body > header,
@@ -2346,12 +2395,16 @@ footer .col-container {
       float: none;
       margin: 0; }
     .modal-content p {
-      text-align: left;
-      padding: 0 20px; }
+      /*text-align: left;*/
+      padding: 0 20px; 
+      margin: .5rem 0;
+    }
   .modal-content.price-info h2 {
-    text-align: left; }
+    /*text-align: left; */
+  }
   .modal-content.price-info p, .modal-content.price-info ul {
-    text-align: left; }
+    /*text-align: left; */
+  }
   .modal-content.price-info .close-modal {
     text-align: right; } }
 
