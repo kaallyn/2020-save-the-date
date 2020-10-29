@@ -1338,6 +1338,15 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
 
 }
 
+.event ul li span.esri{
+  /*font-style: italic;*/
+  font-size: 12px;
+  background-color: rgba(255,255,255,.25);
+  /*color: #3c3c3c;*/
+  padding: 5px; 
+
+}
+
 .event a {
   color: #D2DDE8;
 }
