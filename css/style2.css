@@ -941,6 +941,17 @@ footer .logo img {
   margin-top: 2rem;
 }
 
+#attend2020 .note {
+    font-size: .8em;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#attend2020 .note a {
+  color: white;
+}
+
 .speakers-wrap {
   margin: 0 auto;
   padding: 0;
@@ -1366,7 +1377,7 @@ background: url(../img/agenda-bullet.png) no-repeat left .6rem;
 .daycard header.tradeheader {
     background-color: #D2DDE8;
     color: #3c3c3c;
-    padding: 1.93rem 1rem 1.13rem;
+    padding: 1.13rem 1rem 1.13rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1419,9 +1430,20 @@ span.striking {
 
 }
 .note-contain {
-  max-width: 550px;
+  max-width: 745px;
   margin: 0 auto;
   text-align: center;
+}
+
+.note-contain p {
+  opacity: .85;
+  font-size: .9rem;
+}
+
+.note-contain p:last-child {
+  opacity: 1;
+  font-size: .95rem;
+  font-weight: bold;
 }
 
 .note-contain a {

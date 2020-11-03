@@ -881,7 +881,7 @@ var prices = $('.pricing');
 var ticket = $('.tickets');
 
 $(document).ready(function(){
-  $b.append(modalStart+'<h2>It’s time to join the virtual conference</h2><p>All attendees who registered before Oct. 30 should have received an email from no-reply@ccim.com granting login access to the <a href="https://ccimconference.pathable.co/">virtual conference platform</a>, with the subject line "Access the CCIM Global Conference Virtual Event Platform." Attendees who have registered since then should receive the email within 24 hours. <div class="dropdown"><a class="dropbtn btn btn-highlight sold-out-btn  " href="https://ccimconference.pathable.co/">Join Conference</a></div></p><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>.</p><br>'+modalEnd);
+  $b.append(modalStart+'<h2>It’s time to join the virtual conference</h2><p>All attendees who registered before Nov. 2 should have received an email from no-reply@ccim.com granting login access to the <a href="https://ccimconference.pathable.co/">virtual conference platform</a>, with the subject line "Access the CCIM Global Conference Virtual Event Platform." Attendees who have registered since then should receive the email within 24 hours. Need help? <a href="http://ccim.com/help#conf" target="_blank">Start here</a>.<div class="dropdown"><a class="dropbtn btn btn-highlight sold-out-btn  " href="https://ccimconference.pathable.co/">Join Conference</a></div></p><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>.</p><br>'+modalEnd);
   $('.modal-content').addClass('price-info');
   showModal();
   closeModal();
