@@ -599,7 +599,7 @@ var sponsors = [
   },
   {
     sponsorname: 'National Association of REALTORS',
-    sponsorlogo: 'nar-commercial-logo'
+    sponsorlogo: 'nar-rpr-logo'
   },
   {
     sponsorname: 'Granite Properties',
@@ -644,6 +644,27 @@ var sponsors = [
     sponsorname: 'Corfac International',
     sponsorlogo: 'corfac-logo'
   },
+  {
+    sponsorname: 'Brevitas',
+    sponsorlogo: 'brevitas-logo'
+  },
+  {
+    sponsorname: 'CREModels',
+    sponsorlogo: 'cremodels-logo'
+  },
+  {
+    sponsorname: 'leasecake',
+    sponsorlogo: 'leasecake-logo'
+  },
+  {
+    sponsorname: 'occupier',
+    sponsorlogo: 'occupier-logo'
+  },
+  {
+    sponsorname: 'stratafolio',
+    sponsorlogo: 'stratafolio-logo'
+  },
+
 
 
 
