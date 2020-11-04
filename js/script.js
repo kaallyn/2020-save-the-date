@@ -28,12 +28,12 @@ $(document).ready(function(){
 
 // Speaker Bio Modals
 
+// ADD BACK IN FOR MODAL
+// var closeModal = function(){$('.close-modal').on('click', function(){
 
-var closeModal = function(){$('.close-modal').on('click', function(){
-
-          $(this).parent().parent().removeClass("fadeIn").addClass("fadeOut").setTimeout(deleteModal, 500).remove();
-                  });
-}
+//           $(this).parent().parent().removeClass("fadeIn").addClass("fadeOut").setTimeout(deleteModal, 500).remove();
+//                   });
+// }
 
 
 
@@ -598,8 +598,8 @@ var sponsors = [
     sponsorlogo: 'esri-logo'
   },
   {
-    sponsorname: 'CoStar LoopNet Ten-X',
-    sponsorlogo: 'ten-x-logo'
+    sponsorname: 'National Association of REALTORS',
+    sponsorlogo: 'nar-commercial-logo'
   },
   {
     sponsorname: 'Granite Properties',
@@ -610,6 +610,10 @@ var sponsors = [
     sponsorlogo: 'lee-logo'
   },
   {
+    sponsorname: 'RE/MAX',
+    sponsorlogo: 'remax-logo'
+  },
+  {
     sponsorname: 'Trowbridge Law Group',
     sponsorlogo: 'trowbridge-logo'
   }, 
@@ -617,6 +621,25 @@ var sponsors = [
     sponsorname: 'Inland',
     sponsorlogo: 'inland-logo'
   },
+  {
+    sponsorname: 'CoStar LoopNet Ten-X',
+    sponsorlogo: 'ten-x-logo'
+  },
+  {
+    sponsorname: 'CompStak',
+    sponsorlogo: 'compstak-logo'
+  },
+  {
+    sponsorname: 'Real Massive',
+    sponsorlogo: 'real-massive-logo'
+  },
+  {
+    sponsorname: 'TNC Worldwide',
+    sponsorlogo: 'tnc-logo'
+  },
+
+  
+  
     {
     sponsorname: 'Corfac International',
     sponsorlogo: 'corfac-logo'
@@ -880,8 +903,9 @@ for (var prop in sponsors) {
 var prices = $('.pricing');
 var ticket = $('.tickets');
 
+// ADD BACK IN FOR JOIN CONF MODAL
 $(document).ready(function(){
-  $b.append(modalStart+'<h2>It’s time to join the virtual conference</h2><p>All attendees who registered before Nov. 2 should have received an email from no-reply@ccim.com granting login access to the <a href="https://ccimconference.pathable.co/">virtual conference platform</a>, with the subject line "Access the CCIM Global Conference Virtual Event Platform." Attendees who have registered since then should receive the email within one hour during business hours (8:30 a.m. – 5 p.m. CT). Need help? <a href="http://ccim.com/help#conf" target="_blank">Start here</a>.<div class="dropdown"><a class="dropbtn btn btn-highlight sold-out-btn  " href="https://ccimconference.pathable.co/">Join Conference</a></div></p><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>.</p><br>'+modalEnd);
+  $b.append(modalStart+'<h2>It’s time to join the virtual conference</h2><p>All attendees who registered before Nov. 2 should have received an email from no-reply@ccim.com granting login access to the <a href="https://ccimconference.pathable.co/">virtual conference platform</a>, with the subject line "Access the CCIM Global Conference Virtual Event Platform." Attendees who have registered since then should receive the email within one hour during business hours (8:30 a.m. – 5 p.m. CT). Need help? <a href="http://ccim.com/help#conf" target="_blank">Start here</a>.<div class="dropdown"><a class="dropbtn btn btn-highlight sold-out-btn  " href="https://ccimconference.pathable.co/">Join Conference</a></div></p><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>. Registration is required to access the conference.</p><br>'+modalEnd);
   $('.modal-content').addClass('price-info');
   showModal();
   closeModal();
