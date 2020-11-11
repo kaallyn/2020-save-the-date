@@ -1984,7 +1984,7 @@ footer .columns a.tel {
     height: fit-content;
   /* Could be more or less, depending on screen size */
   transition: all .5s;
-  max-width: 700px;
+  max-width: 618px;
   font-size: .9rem; }
 
   .modal-content h1 {
