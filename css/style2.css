@@ -1125,7 +1125,7 @@ footer .logo img {
 }
 .modal-content h2 {
   color: #3c3c3c;
-  line-height: 2.5rem;
+  /*line-height: 2.5rem;*/
   font-size: 1.65rem;
   margin: 1.5rem 0;
 }
@@ -2017,7 +2017,7 @@ footer .columns a.tel {
 
 .modal-content.price-info h2 {
   /*font-weight: bold;*/
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: 'Futura New';
     color: #E4264D;
   text-align: center;
@@ -2041,14 +2041,21 @@ footer .columns a.tel {
   }
   .modal-content h3 {
     font-family: 'Futura New';
-    font-size: 25px;
-    margin-bottom: 0;
+    font-size: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 1.65rem 0 1.2rem 0;
+    padding: 1.5rem 0 0;
+    border-top: 1px solid gray;
+    border-top: 1px solid #D2DDE8;
+    /*margin-bottom: 0;*/
 }
   .modal-content a.dropbtn.btn.btn-highlight.sold-out-btn {
     border: 2px solid #E4264D;
     color: #E4264D;
     font-weight: bold;
-    margin: 1rem;
+    margin:1rem;
+    margin: 1rem 1rem 0;
     padding: 10px 23px;
 }
 

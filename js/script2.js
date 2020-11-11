@@ -920,44 +920,28 @@ for (var prop in sponsors) {
   sponsorsGoHere.append(sponsorPod);
 }
 
-
- Date.shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-function short_months(dt)
-   { 
-     return Date.shortMonths[dt.getMonth()]; 
-   }
-
-var dt = new Date(); 
-// console.log(short_months(dt)); 
-
-// date
-const d = new Date();
-// const d = new Date(2010, 7, 5);
-const ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d);
-const mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(d);
-const da = new Intl.DateTimeFormat('en', { day: 'numeric' }).format(d);
-// console.log(`${mo} ${da}`);
-// console.log(${mo}${da})
-console.log(short_months(dt)+'. '+da)
-
-// date timezone
-// var usaTime = new Date().toLocaleString("en-US", {timeZone: "America/Chicago"});
-// console.log('USA time: '+ (new Date(usaTime)).toISOString())
-
-
 // Show pricing details
 var prices = $('.pricing');
 var ticket = $('.tickets');
 
 // ADD BACK IN FOR JOIN CONF MODAL
 $(document).ready(function(){
-  $b.append(modalStart+'<h2>Thanks to all who attended the 2020 CCIM Global Conference.</h2><p>Those who registered can view session recordings on our <a href="https://ccimconference.pathable.co/">virtual conference platform</a>. Simply go to the schedule, find the session page, and play the video. All recordings will be available until fall 2021.</p><h3>Miss the conference?</h3><p>You can also find content from the event by <a href="https://www.ccim.com/sign-up/" target="_blank">subscribing</a> to CCIM\'s Education Connection newsletter, where we\'ll be sharing content in the coming months. Also, watch for more details on the 2021 event. Need help? <a href="http://ccim.com/help#conf" target="_blank">Start here</a>.</p><br>'+modalEnd);
+  $b.append(modalStart+'<h2>It’s time to join the virtual conference</h2><p>All attendees who registered before Nov. 2 should have received an email from no-reply@ccim.com granting login access to the <a href="https://ccimconference.pathable.co/">virtual conference platform</a>, with the subject line "Access the CCIM Global Conference Virtual Event Platform." Attendees who have registered since then should receive the email within one hour during business hours (8:30 a.m. – 5 p.m. CT). Need help? <a href="http://ccim.com/help#conf" target="_blank">Start here</a>.<div class="dropdown"><a class="dropbtn btn btn-highlight sold-out-btn pricing" href="javascript:void(0)">Join Conference</a></div></p><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>. Registration is required to access the conference.</p><br>'+modalEnd);
   $('.modal-content').addClass('price-info');
   showModal();
   closeModal();
 });
 
+
+
+var prices = $('.pricing');
+var ticket = $('.tickets');
+prices.on('click', function(){
+  $b.append(modalStart+'<a class="dropbtn btn btn-highlight sold-out-btn  " href="https://ccimconference.pathable.co/">Join Conference</a><h3>Not registered yet?</h2><p>There’s still time to <a href="#attend2020" class="modal-link close-modal ">get your ticket</a>. Registration is required to access the conference.</p><br>'+modalEnd);
+  $('.modal-content').addClass('price-info');
+  showModal();
+  closeModal();
+});
 
 
 var $w = $(window);
