@@ -14,7 +14,7 @@
 	 <link rel="icon" href="img/favicon.ico" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -42,11 +42,11 @@
 
 				<div class="hero-contain">
 					<div class="west">
-					<img src="img/logo-group-w-date.png" class="sidebylogo animate__animated animate__fadeInLeft" />
+					<img src="img/logo-group-w-date.png" draggable="false"  class="sidebylogo animate__animated animate__fadeInLeft" />
 				</div>
 				<div class="east">
 					
-					<img class="changing left-align animate__animated animate__fadeInDown" src="img/industry-changing4.svg">
+					<img draggable="false" class="changing left-align animate__animated animate__fadeInDown" src="img/industry-changing4.svg">
 
 					<img class="changing center-align animate__animated animate__fadeInDown" src="img/industry-changing-center2.svg">
 					<section class="heading-info ">
@@ -144,7 +144,7 @@
 
 				<div class="card-container">
 
-					<article class="daycard">
+					<article class="daycard" style="display: none">
 						<header>
 							<h3>Wednesday, Nov. 4</h3>
 							<p>12:00 – 4:00 p.m. CST</p>
@@ -241,7 +241,7 @@
 							</div>
 							<div class="right">
 								<ul>
-									<li>How COVID Is Shaping the Future of Building Management and Ownership</li>
+									<li>Weighing Lease Modification Options</li>
 								</ul>
 								
 							</div>
@@ -264,7 +264,8 @@
 							<div class="right">
 								<ul>
 									<li>Applications of IRR </li>
-									<li>Weighing Lease Modification Options</li>
+									<li>
+									How COVID Is Shaping the Future of Building Management and Ownership</li>
 
 								</ul>
 							</div>
@@ -386,7 +387,8 @@
 							</div>
 							<div class="right">
 								<ul>
-									<li>Leveraging Site To Do Business for Advanced CRE Analysis (Candidate Members Only)<span class="star">*</span></li>
+									<li>Leveraging Site To Do Business for Advanced CRE Analysis (Candidate Members Only)
+										<!-- <span class="star">*</span></li> -->
 									
 
 								</ul>
@@ -400,7 +402,8 @@
 								<ul>
 									<li><span class="soldout">Sold Out</span> 
 										<!-- <strike> --><span class="striking">CI 102 Revisited: Market Analysis Models (Designee Members Only; Qualifies for CE Credit in Select States)</span><!-- </strike> -->
-										<span  class="star">**</span> <!-- <span  class="star">*</span><span  class="star">*</span> --><p><i>
+										<!-- <span  class="star">**</span>  -->
+										<!-- <span  class="star">*</span><span  class="star">*</span> --><p><i>
 										Due to capacity limitations, this session has sold out. CCIM designee members still have access to this complimentary session in a self-paced format. <a href="https://ccim.wufoo.com/forms/z19ob9oa0w4hb7n/" target="_blank">Learn more and register.</a></i></p>
 									</li>
 								</ul>
@@ -412,9 +415,11 @@
 					</article>
 					<div class="keynote-paras check is-hidden  members-sessions">
 						<div class="note-contain">
-							<p><span  class="star">*</span>Some restrictions apply, and the offer does not include chapter membership fees or donations. A winner who’s already paid their 2021 dues will have the option to be reimbursed for the global/national membership fee. The winner will be contacted by Nov. 11, 2020.</p>
+							<!-- <p><span  class="star">*</span>Some restrictions apply, and the offer does not include chapter membership fees or donations. A winner who’s already paid their 2021 dues will have the option to be reimbursed for the global/national membership fee. The winner will be contacted by Nov. 11, 2020.</p>
 
-							<p><span  class="star">**</span>This session is exclusive to CCIM Institute members. Please ensure the session is added to your cart during registration, as capacity is limited.</p>
+							<p>
+								<span  class="star">**</span>
+							This session is exclusive to CCIM Institute members. Please ensure the session is added to your cart during registration, as capacity is limited.</p> -->
 							<p>Not a member and would like to access Leveraging Site To Do Business for Advanced CRE Analysis? <a href="https://www.ccim.com/membership/" target="_blank">Become a candidate member today.</a></p>
 						</div>
 					</div>
@@ -441,24 +446,29 @@
 			</section>
 		<!-- END SPEAKERS -->
 
-			<section id="attend2020" class="check is-hidden">
+			<section id="attend2020" >
 				<header class="sectionhead attendhead">
-					<div class="headerline"></div>
-					<h2>Attend</h2>
+					<div class="headerline check is-hidden"></div>
+					<h2 class="check is-hidden">Attend</h2>
 					
 				</header>
-				<p class="date-time">Virtual  |  November 5-6, 9-11</p>
+				<p class="date-time check is-hidden">Virtual  |  November 5-6, 9-11</p>
 
 				<div class="attend-columns">
 					<div class="attend-col1">
-						<p>Members: <span class="price">FREE</span></p>
-						<p>Nonmembers: <span class="price">$499</span> <span class="currency">USD</span></p>
-						<p class="not-member">Not a member? <a href="https://www.ccim.com/membership/">
-						Join now</a>.</p>
+						<div class="pricing-group check is-hidden">
+							<p>Members: <span class="price">FREE</span></p>
+							<p>Nonmembers: <span class="price">$499</span> <span class="currency">USD</span></p>
+							<p class="not-member">Not a member? <a href="https://www.ccim.com/membership/">
+							Join now</a>.</p>
+						</div>
 						
 					</div>
+
+					<div class="attendline check is-hidden"></div>
+
 					<div class="attend-col2">
-						<div class="dropdown">
+						<div class="dropdown check is-hidden">
 					      <a class="dropbtn btn btn-highlight pricing" href="javascript:void(0)">Register Now</a>
 					      <!-- <a class="pricing" href="javascript:void(0)">$295</a> -->
 
@@ -483,7 +493,7 @@
 					<h2>Sponsors</h2>
 					
 				</header>
-				<div class="keynote-paras check is-hidden note">
+				<div class="keynote-paras check  note">
 		
 						<p>Thanks to our sponsors. Want to become a sponsor? <a href="#sponsor-info">Learn more</a>.</p>
 						

@@ -14,7 +14,7 @@ $(document).ready(function(){
     $(".sold-out-btn").addClass('animated not-hidden');
     $(".nineteen").addClass('animated fadeInUp');
     $(".bg").addClass('animated fadeIn');
-    $(".memberRegistration").addClass('animated bounce');
+    // $(".memberRegistration").addClass('animated bounce');
 
 
 
@@ -800,7 +800,7 @@ for (var prop in speakers) {
     isSpecial = 'highlight';
     highClass= 'feature';
   }
-  speakerPod = '<div class="speaker check is-hidden '+highClass+'" id="'+lastFirstLower+'"><div class="headshot '+speakPanel+'"><img src="'+photo+'" alt="" onerror="imgError(this)"></div><div class="info"><h3 class="'+isSpecial+'"">'+special+'</h3><p class="name">'+displayName+'</p><p class="title">'+speakTitle+', '+speakCo+'</p></div></div>'
+  speakerPod = '<div class="speaker'+highClass+'" id="'+lastFirstLower+'"><div class="headshot '+speakPanel+'"><img src="'+photo+'" alt="" class="check is-hidden" onerror="imgError(this)"></div><div class="info"><h3 class="'+isSpecial+'"">'+special+'</h3><p class="name">'+displayName+'</p><p class="title">'+speakTitle+', '+speakCo+'</p></div></div>'
   speakersGoHere.append(speakerPod);
 }
 function imgError(source) {
@@ -952,12 +952,12 @@ var ticket = $('.tickets');
 var pricingMsg ='<h2>Thanks to all who attended the 2020 CCIM Global Conference.</h2><p>Those who registered can view session recordings on our <a href="https://ccimconference.pathable.co/">virtual conference platform</a>. Simply go to the schedule, find the session page, and play the video. All recordings will be available until fall 2021. Need help? <a href="http://ccim.com/help#conf" target="_blank">Start here</a>.</p><h3>Miss the conference?</h3><p>You can also find content from the event by <a href="https://www.ccim.com/sign-up/" target="_blank">subscribing</a> to CCIM\'s Education Connection newsletter, where we\'ll be sharing content in the coming months. Also, watch for more details on the 2021 event.</p><br>'
 
 // ADD BACK IN FOR JOIN CONF MODAL
-$(document).ready(function(){
-  $b.append(modalStart+pricingMsg+modalEnd);
-  $('.modal-content').addClass('price-info');
-  showModal();
-  closeModal();
-});
+// $(document).ready(function(){
+//   $b.append(modalStart+pricingMsg+modalEnd);
+//   $('.modal-content').addClass('price-info');
+//   showModal();
+//   closeModal();
+// });
 
 
 prices.on('click', function(){
