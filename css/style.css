@@ -19,7 +19,7 @@
   -moz-box-sizing: border-box; }
 
 * {
-  transition: all .2s; 
+  /*transition: all .2s; */
 
 }
 
@@ -642,14 +642,14 @@ main {
 .headshot.check.is-hidden {
   transform: translateY(0px);
 }
-.headshot.check.not-hidden {
+/*.headshot.check.not-hidden {
 
-}
+}*/
 
 
-#attend2020 .headerline {
+/*#attend2020 .headerline {
 
-}
+}*/
 
 .headshot img.check.is-hidden {
   transform: translateY(0px);
