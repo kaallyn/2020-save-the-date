@@ -17,9 +17,108 @@ $(document).ready(function(){
     // $(".memberRegistration").addClass('animated bounce');
 
 
+$("button.bgOption").click(function() {
+    var firedBtnVal = $(this).val();
+    $('h3.cardDay').removeAttr( "id" );
+
+    // alert(firedBtnVal);
+    // videos that are not one with the class of this button's value will remove show id and add hide class
+    $(".daycard").not('.'+firedBtnVal).removeAttr('id');
+    $(".daycard").not('.'+firedBtnVal).addClass('hide');
+
+    // filter()
+    // $('button option[value="firedBtnVal"]').addClass('hide');
+
+    // videos that do have this button's value as a clas will remove hide class and add show id
+    $('.'+firedBtnVal).removeClass('hide');
+    $('.'+firedBtnVal).attr('id', 'show');
+
+    $('button#'+firedBtnVal).addClass('selectedBtn');
+    $('button').not('#'+firedBtnVal).removeClass('selectedBtn');
+    // plays selected video even if was previously paused, resets button pause/paused
+    // $('.'+firedBtnVal).get(0).play();
+    // pauseButton.innerHTML = "Pause";
+
+    // $('video.'+firedBtnVal).play();
+    // remove all classes to #container
+    // $('#container').removeAttr('class');
+    // add class named button's blue to #container
+    // $('#container').addClass(firedBtnVal+'Bg');
+    // $('h3.cardDay').addClass(firedBtnVal);
+    
+
+    var day = "c"+firedBtnVal;
+    // var callday = "document.getElementById(day)";
+    function reload(id, message) {
+      $(id).click(function() {
+         if (confirm(message)) {
+             $.post(this.href, function(data) {
+                 document.location.reload();
+             });
+             return false;
+         }
+      });
+    };
+
+    function loadAgenda(cardDate, cardTime) {
+        document.getElementById(day).innerHTML = ""+cardDate+"";
+        document.getElementById(day).nextElementSibling.innerHTML = cardTime; 
+    };
+
+
+    $('h3.cardDay').attr('id', day);
+console.log('Testing console');
+    // this.innerHTML='pause';
+    
+    if (firedBtnVal == 1) {
+        // $('h3#c1').addClass('hi');
+        loadAgenda("Thursday, Nov. 5", "12:00 – 3:45 p.m. CST");
+
+    } else if (firedBtnVal == 2) {
+        // $('h3#c2').addClass('hii');
+        loadAgenda("Friday, Nov. 6", "12:00 – 3:45 p.m. CST");
+
+    } else if (firedBtnVal == 3) {
+        loadAgenda("Monday, Nov. 9", "12:00 – 3:45 p.m. CST");
+
+    } else if (firedBtnVal == 4) {
+        loadAgenda("Tuesday, Nov. 10", "12:00 – 3:45 p.m. CST");
+
+    } else if (firedBtnVal == 5) {
+        loadAgenda("Wednesday, Nov. 11", "12:00 – 4:00 p.m. CST");
+
+    }
+
+    ;
+
+
+//  if this, then run function with these 2 param
+    // param = h1 text, h2 text
+    // else if ( )
+
+    
+    
+    // document.getElementById("c1").innerHTML = "JavaScript";
+    // document.getElementById("c1").nextSibling.innerHTML = "JavaScript";
+
+
+    
+    // document.getElementById("demo").innerHTML = x;
+
+    // $('h3#c1').innerHTML = 'Pause';
+    
+});
+
+
+// give header class of buttonval when button clicked
+// the h3 of the header with that class should change its innerhtml
+
+
+
 
 
 });
+// closes document on ready
 
 
 
@@ -117,7 +216,6 @@ $('a[href*="#"]')
       }
     }
   });
-
 
 
 
@@ -929,7 +1027,7 @@ function short_months(dt)
    }
 
 var dt = new Date(); 
-// console.log(short_months(dt)); 
+console.log(short_months(dt)); 
 
 // date
 const d = new Date();
@@ -939,7 +1037,7 @@ const mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(d);
 const da = new Intl.DateTimeFormat('en', { day: 'numeric' }).format(d);
 // console.log(`${mo} ${da}`);
 // console.log(${mo}${da})
-console.log(short_months(dt)+'. '+da)
+// console.log(short_months(dt)+'. '+da)
 
 // date timezone
 // var usaTime = new Date().toLocaleString("en-US", {timeZone: "America/Chicago"});
