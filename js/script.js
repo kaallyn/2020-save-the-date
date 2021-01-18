@@ -19,6 +19,7 @@ $(document).ready(function(){
 
 $("button.bgOption").click(function() {
     var firedBtnVal = $(this).val();
+    // $('h3.cardDay').removeClass('animate__animated animate__flipInX');
     $('h3.cardDay').removeAttr( "id" );
 
     // alert(firedBtnVal);
@@ -246,19 +247,19 @@ var speakers = [
 //     bio2: '',
 //   special: ''
 // },
-{
-  firstname: 'KC',
-  lastname: 'Conway',
-  displayname: 'K.C. Conway, CCIM, MAI, CRE',
-  title: 'Chief Economist',
-  company: 'CCIM Institute',
-  title2: 'Director of Research',
-  company2: 'Alabama Center for Real Estate at The University of Alabama',
-  panel: 'Preparing for a Market Correction: Exploring Exposure Risk | Monday, Oct. 14 at 2:25 p.m.',
-  bio1: 'CCIM Institute Chief Economist Kiernan “K.C.” Conway is the director of research and corporate engagement at the Alabama Center for Real Estate (ACRE) housed within the University of Alabama\'s Culverhouse College of Business. Conway is a frequent speaker for the Federal Reserve, FDIC, FHLB, state bank commissioners, academic groups, professional organizations, and industry associations. He previously served as chief economist for Colliers International - US.',
-  bio2: 'In addition to being a frequent lecturer at international conferences, Conway has consulted with major governmental agencies, most notably briefing former Federal Reserve Chairman Ben Bernanke and the Board of Governors on the burgeoning subprime lending and housing crisis and its impact on the commercial real estate industry.',
-  special: ''
-},
+// {
+//   firstname: 'KC',
+//   lastname: 'Conway',
+//   displayname: 'K.C. Conway, CCIM, MAI, CRE',
+//   title: 'Chief Economist',
+//   company: 'CCIM Institute',
+//   title2: 'Director of Research',
+//   company2: 'Alabama Center for Real Estate at The University of Alabama',
+//   panel: 'Preparing for a Market Correction: Exploring Exposure Risk | Monday, Oct. 14 at 2:25 p.m.',
+//   bio1: 'CCIM Institute Chief Economist Kiernan “K.C.” Conway is the director of research and corporate engagement at the Alabama Center for Real Estate (ACRE) housed within the University of Alabama\'s Culverhouse College of Business. Conway is a frequent speaker for the Federal Reserve, FDIC, FHLB, state bank commissioners, academic groups, professional organizations, and industry associations. He previously served as chief economist for Colliers International - US.',
+//   bio2: 'In addition to being a frequent lecturer at international conferences, Conway has consulted with major governmental agencies, most notably briefing former Federal Reserve Chairman Ben Bernanke and the Board of Governors on the burgeoning subprime lending and housing crisis and its impact on the commercial real estate industry.',
+//   special: ''
+// },
 
 {
   firstname: 'Ross',
@@ -315,32 +316,32 @@ var speakers = [
   bio2: '',
   special: ''
 },
-{
-  firstname: 'Len',
-  lastname: 'Shannon',
-  displayname: 'Len Shannon III, CCIM',
-  title: 'Partner',
-  company: 'Shannon Waltchack',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Marvin',
-  lastname: 'Banks',
-  displayname: 'Marvin Banks',
-  title: 'President',
-  company: 'M. Banks Realty Partners',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Len',
+//   lastname: 'Shannon',
+//   displayname: 'Len Shannon III, CCIM',
+//   title: 'Partner',
+//   company: 'Shannon Waltchack',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Marvin',
+//   lastname: 'Banks',
+//   displayname: 'Marvin Banks',
+//   title: 'President',
+//   company: 'M. Banks Realty Partners',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 
 
 
@@ -361,59 +362,59 @@ var speakers = [
   special: ''
 },
 
-{
-  firstname: 'Obie',
-  lastname: 'Walli',
-  displayname: 'Obie Walli',
-  title: 'Founder',
-  company: 'Valuation Alliance',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Lydia',
-  lastname: 'Bennett',
-  displayname: 'Lydia Bennett, CCIM',
-  title: 'Senior Instructor',
-  company: 'CCIM Institute',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Mark',
-  lastname: 'Polon',
-  displayname: 'Mark Polon, CCIM',
-  title: 'Senior Instructor',
-  company: 'CCIM Institute',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Obie',
+//   lastname: 'Walli',
+//   displayname: 'Obie Walli',
+//   title: 'Founder',
+//   company: 'Valuation Alliance',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Lydia',
+//   lastname: 'Bennett',
+//   displayname: 'Lydia Bennett, CCIM',
+//   title: 'Senior Instructor',
+//   company: 'CCIM Institute',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Mark',
+//   lastname: 'Polon',
+//   displayname: 'Mark Polon, CCIM',
+//   title: 'Senior Instructor',
+//   company: 'CCIM Institute',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 
-{
-  firstname: 'Rod',
-  lastname: 'Santomassimo',
-  displayname: 'Rod Santomassimo, CCIM',
-  title: 'President',
-  company: 'Massimo Group',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Rod',
+//   lastname: 'Santomassimo',
+//   displayname: 'Rod Santomassimo, CCIM',
+//   title: 'President',
+//   company: 'Massimo Group',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 
 {
   firstname: 'Kenisha',
@@ -515,87 +516,87 @@ var speakers = [
   special: ''
 },
 
-{
-  firstname: 'Joe',
-  lastname: 'Fisher',
-  displayname: 'Joe Fisher, CCIM',
-  title: 'Senior Instructor',
-  company: 'CCIM Institute',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Joe',
+//   lastname: 'Fisher',
+//   displayname: 'Joe Fisher, CCIM',
+//   title: 'Senior Instructor',
+//   company: 'CCIM Institute',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 
-{
-  firstname: 'Patricia',
-  lastname: 'Lynn',
-  displayname: 'Patricia Lynn, CCIM',
-  title: 'Senior Instructor',
-  company: 'CCIM Institute',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Mark',
-  lastname: 'Cypert',
-  displayname: 'Mark Cypert, CCIM',
-  title: 'Senior Instructor',
-  company: 'CCIM Institute',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
-{
-  firstname: 'Soozi',
-  lastname: 'JonesWalker',
-  displayname: 'Soozi Jones Walker, CCIM',
-  title: 'Senior Instructor',
-  company: 'CCIM Institute',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Patricia',
+//   lastname: 'Lynn',
+//   displayname: 'Patricia Lynn, CCIM',
+//   title: 'Senior Instructor',
+//   company: 'CCIM Institute',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Mark',
+//   lastname: 'Cypert',
+//   displayname: 'Mark Cypert, CCIM',
+//   title: 'Senior Instructor',
+//   company: 'CCIM Institute',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
+// {
+//   firstname: 'Soozi',
+//   lastname: 'JonesWalker',
+//   displayname: 'Soozi Jones Walker, CCIM',
+//   title: 'Senior Instructor',
+//   company: 'CCIM Institute',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 
-{
-  firstname: 'Ed',
-  lastname: 'Riggins',
-  displayname: 'Ed Riggins, CCIM',
-  title: 'President',
-  company: 'Riggo & Company',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Ed',
+//   lastname: 'Riggins',
+//   displayname: 'Ed Riggins, CCIM',
+//   title: 'President',
+//   company: 'Riggo & Company',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 
-{
-  firstname: 'Gene',
-  lastname: 'Trowbridge',
-  displayname: 'Gene Trowbridge, CCIM',
-  title: 'Co-Founding Partner',
-  company: 'Trowbridge Law Group LLP',
-  title2: '',
-  company2: '',
-  panel: '',
-  bio1: '',
-  bio2: '',
-  special: ''
-},
+// {
+//   firstname: 'Gene',
+//   lastname: 'Trowbridge',
+//   displayname: 'Gene Trowbridge, CCIM',
+//   title: 'Co-Founding Partner',
+//   company: 'Trowbridge Law Group LLP',
+//   title2: '',
+//   company2: '',
+//   panel: '',
+//   bio1: '',
+//   bio2: '',
+//   special: ''
+// },
 {
   firstname: 'Evelyn',
   lastname: 'Ward',
